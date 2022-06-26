@@ -2,13 +2,13 @@ require("MainCreationMethods");
 
 BaseGameCharacterDetails.DoDoomsdayProfession = function()
 
-    local doomsdayprepper = ProfessionFactory.addProfession("doomsdayprepper", "Doomsday Prepper", "profession_doomsdayprepper2", 50);
+    local doomsdayprepper = ProfessionFactory.addProfession("doomsdayprepper", "Doomsday Prepper", "profession_doomsdayprepper2", 100);
 
     -- ???
     doomsdayprepper:addFreeTrait("Marksman");
 
     -- XP Boosts
-    doomsdayprepper:addXPBoost(Perks.Strength, 1)
+    doomsdayprepper:addXPBoost(Perks.Strength, 3)
     doomsdayprepper:addXPBoost(Perks.Fitness, 3)
 
     doomsdayprepper:addXPBoost(Perks.Sprinting, 2)
@@ -23,14 +23,12 @@ BaseGameCharacterDetails.DoDoomsdayProfession = function()
     doomsdayprepper:addXPBoost(Perks.Aiming, 3)
     doomsdayprepper:addXPBoost(Perks.Reloading, 2)
 
-    -- doomsdayprepper:addXPBoost(Perks.Blacksmith, 3)
     doomsdayprepper:addXPBoost(Perks.Cooking, 3)
     doomsdayprepper:addXPBoost(Perks.Doctor, 3)
     doomsdayprepper:addXPBoost(Perks.Electricity, 3)
     doomsdayprepper:addXPBoost(Perks.Farming, 3)
     doomsdayprepper:addXPBoost(Perks.Fishing, 3)
     doomsdayprepper:addXPBoost(Perks.Mechanics, 3)
-    -- doomsdayprepper:addXPBoost(Perks.Melting, 2)
     doomsdayprepper:addXPBoost(Perks.MetalWelding, 3)
     doomsdayprepper:addXPBoost(Perks.PlantScavenging, 2)
     doomsdayprepper:addXPBoost(Perks.Trapping, 2)
@@ -105,6 +103,12 @@ BaseGameCharacterDetails.DoDoomsdayProfession = function()
     doomsdayprepper:getFreeRecipes():add("Basic Mechanics");
     doomsdayprepper:getFreeRecipes():add("Intermediate Mechanics");
     doomsdayprepper:getFreeRecipes():add("Advanced Mechanics");
+
+    local profList = ProfessionFactory.getProfessions()
+    for i=1,profList:size() do
+        local prof = profList:get(i-1)
+        BaseGameCharacterDetails.SetProfessionDescription(prof)
+    end
 end
 
 Events.OnGameBoot.Add(BaseGameCharacterDetails.DoDoomsdayProfession);

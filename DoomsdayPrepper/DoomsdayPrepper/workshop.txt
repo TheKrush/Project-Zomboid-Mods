@@ -1,6 +1,0 @@
-version=1
-id=2826054664
-title=More Professions
-description=Adds additional professions to the game to offer more variety for character creation.
-tags=Build 41
-visibility=private

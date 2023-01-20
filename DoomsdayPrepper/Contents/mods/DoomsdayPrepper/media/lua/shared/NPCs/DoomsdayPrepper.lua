@@ -13,19 +13,19 @@ BaseGameCharacterDetails.DoDoomsdayProfession = function()
 
     doomsdayprepper:addXPBoost(Perks.Lightfoot, 3)
     doomsdayprepper:addXPBoost(Perks.Nimble, 3)
-    doomsdayprepper:addXPBoost(Perks.Sneak, 3)
-    doomsdayprepper:addXPBoost(Perks.Sprinting, 3)
+    doomsdayprepper:addXPBoost(Perks.Sneak, 4)
+    doomsdayprepper:addXPBoost(Perks.Sprinting, 4)
 
     doomsdayprepper:addXPBoost(Perks.Aiming, 3)
     doomsdayprepper:addXPBoost(Perks.Axe, 2)
-    doomsdayprepper:addXPBoost(Perks.Maintenance, 3)
+    doomsdayprepper:addXPBoost(Perks.Maintenance, 4)
     doomsdayprepper:addXPBoost(Perks.Reloading, 2)
     doomsdayprepper:addXPBoost(Perks.SmallBlade, 3)
     doomsdayprepper:addXPBoost(Perks.SmallBlunt, 3)
 
     doomsdayprepper:addXPBoost(Perks.Cooking, 3)
     doomsdayprepper:addXPBoost(Perks.Doctor, 3)
-    doomsdayprepper:addXPBoost(Perks.Electricity, 3)
+    doomsdayprepper:addXPBoost(Perks.Electricity, 4)
     doomsdayprepper:addXPBoost(Perks.Farming, 3)
     doomsdayprepper:addXPBoost(Perks.Fishing, 3)
     doomsdayprepper:addXPBoost(Perks.Mechanics, 3)
@@ -47,6 +47,18 @@ BaseGameCharacterDetails.DoDoomsdayProfession = function()
 
     -- Burglar
     doomsdayprepper:addFreeTrait("Burglar");
+
+    -- Chef
+    doomsdayprepper:getFreeRecipes():add("Make Cake Batter");
+    doomsdayprepper:getFreeRecipes():add("Make Pie Dough");
+    doomsdayprepper:getFreeRecipes():add("Make Bread Dough");
+    doomsdayprepper:getFreeRecipes():add("Make Biscuits");
+    doomsdayprepper:getFreeRecipes():add("Make Chocolate Cookie Dough");
+    doomsdayprepper:getFreeRecipes():add("Make Chocolate Chip Cookie Dough");
+    doomsdayprepper:getFreeRecipes():add("Make Oatmeal Cookie Dough");
+    doomsdayprepper:getFreeRecipes():add("Make Shortbread Cookie Dough");
+    doomsdayprepper:getFreeRecipes():add("Make Sugar Cookie Dough");
+    doomsdayprepper:getFreeRecipes():add("Make Pizza");
 
     -- Farmer
     doomsdayprepper:getFreeRecipes():add("Make Mildew Cure");

@@ -1,6 +1,6 @@
 name=Doomsday Prepper
 description=Adds a "Doomsday Prepper" profession for character creation.
 poster=preview.png
-modversion=1.0
-pzversion=build 41.66
-id=MoreProfessions
+modversion=1.01
+pzversion=build 41.78
+id=DoomsdayPrepper

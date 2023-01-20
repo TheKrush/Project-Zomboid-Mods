@@ -8,8 +8,8 @@ BaseGameCharacterDetails.DoDoomsdayProfession = function()
     doomsdayprepper:addFreeTrait("Marksman");
 
     -- XP Boosts
-    doomsdayprepper:addXPBoost(Perks.Fitness, 3)
-    doomsdayprepper:addXPBoost(Perks.Strength, 3)
+    doomsdayprepper:addXPBoost(Perks.Fitness, 4)
+    doomsdayprepper:addXPBoost(Perks.Strength, 4)
 
     doomsdayprepper:addXPBoost(Perks.Lightfoot, 3)
     doomsdayprepper:addXPBoost(Perks.Nimble, 3)
@@ -48,12 +48,6 @@ BaseGameCharacterDetails.DoDoomsdayProfession = function()
     -- Burglar
     doomsdayprepper:addFreeTrait("Burglar");
 
-    -- Chef
-    doomsdayprepper:getFreeRecipes():add("Make Cake Batter");
-    doomsdayprepper:getFreeRecipes():add("Make Pie Dough");
-    doomsdayprepper:getFreeRecipes():add("Make Bread Dough");
-    doomsdayprepper:addFreeTrait("Cook2");
-
     -- Farmer
     doomsdayprepper:getFreeRecipes():add("Make Mildew Cure");
     doomsdayprepper:getFreeRecipes():add("Make Flies Cure");
@@ -62,6 +56,7 @@ BaseGameCharacterDetails.DoDoomsdayProfession = function()
     doomsdayprepper:getFreeRecipes():add("Make Fishing Rod");
     doomsdayprepper:getFreeRecipes():add("Fix Fishing Rod");
     doomsdayprepper:getFreeRecipes():add("Get Wire Back");
+    doomsdayprepper:getFreeRecipes():add("Make Fishing Net");
 
     -- Veteran
     doomsdayprepper:addFreeTrait("Desensitized");
@@ -82,7 +77,6 @@ BaseGameCharacterDetails.DoDoomsdayProfession = function()
     doomsdayprepper:getFreeRecipes():add("Craft Makeshift Radio");
     doomsdayprepper:getFreeRecipes():add("Craft Makeshift HAM Radio");
     doomsdayprepper:getFreeRecipes():add("Craft Makeshift Walkie Talkie");
-    doomsdayprepper:getFreeRecipes():add("Make Fishing Net");
 
     -- Engineer
     doomsdayprepper:getFreeRecipes():add("Make Aerosol bomb");
@@ -98,9 +92,9 @@ BaseGameCharacterDetails.DoDoomsdayProfession = function()
     doomsdayprepper:getFreeRecipes():add("Make Metal Sheet");
     doomsdayprepper:getFreeRecipes():add("Make Small Metal Sheet");
     doomsdayprepper:getFreeRecipes():add("Make Metal Roof");
+    doomsdayprepper:getFreeRecipes():add("Make Metal Pipe");
 
     -- Mechanics
-    doomsdayprepper:addFreeTrait("Mechanics2");
     doomsdayprepper:getFreeRecipes():add("Basic Mechanics");
     doomsdayprepper:getFreeRecipes():add("Intermediate Mechanics");
     doomsdayprepper:getFreeRecipes():add("Advanced Mechanics");

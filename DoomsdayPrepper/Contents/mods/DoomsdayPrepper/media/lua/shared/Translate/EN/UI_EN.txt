@@ -1,0 +1,4 @@
+UI_EN = {
+UI_prof_doomsdayprepper = "Doomsday Prepper",
+UI_profdesc_doomsdayprepper = "You prepared for this day, and finally all your work will have proven.",
+}

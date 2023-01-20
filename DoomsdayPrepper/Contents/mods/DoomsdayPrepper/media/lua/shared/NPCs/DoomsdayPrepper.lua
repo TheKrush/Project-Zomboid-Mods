@@ -2,7 +2,7 @@ require("MainCreationMethods");
 
 BaseGameCharacterDetails.DoDoomsdayProfession = function()
 
-    local doomsdayprepper = ProfessionFactory.addProfession("doomsdayprepper", "Doomsday Prepper", "profession_doomsdayprepper2", 125);
+    local doomsdayprepper = ProfessionFactory.addProfession("doomsdayprepper",  getText("UI_prof_doomsdayprepper"), "profession_doomsdayprepper", 125);
 
     -- ???
     doomsdayprepper:addFreeTrait("Marksman");

@@ -1,5 +1,6 @@
 name=Access Levels Adjuster
-poster=poster.png
-id=AccessLevelsAdjuster
 description=Allows adjusting of what each access level is required for various things.
-url=
+poster=preview.png
+modversion=1.00
+pzversion=build 41.78
+id=AccessLevelsAdjuster

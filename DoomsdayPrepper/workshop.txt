@@ -3,4 +3,4 @@ id=2826054664
 title=Doomsday Prepper (Profession)
 description=Adds a "Doomsday Prepper" profession for character creation.
 tags=Build 41
-visibility=private
+visibility=unlisted

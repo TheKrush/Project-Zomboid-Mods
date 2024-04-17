@@ -1,0 +1,6 @@
+version=1
+id=3224643834
+title=BetterSorting - Skill Books Multi Patch
+description=This patch modifies skill books from various other mods to the "Literature - Skill" category.
+tags=Build 41
+visibility=public

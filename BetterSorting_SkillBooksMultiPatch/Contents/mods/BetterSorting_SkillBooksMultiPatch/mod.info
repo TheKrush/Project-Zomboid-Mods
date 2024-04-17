@@ -1,0 +1,6 @@
+name=BetterSorting - Skill Books Multi Patch
+id=BetterSorting_SkillBooksMultiPatch
+require=BetterSortCC,ItemTweakerAPI
+description=This patch modifies skill books from various other mods to the "Literature - Skill" category, but only if they are active.
+poster=poster.png
+versionMax=41.78

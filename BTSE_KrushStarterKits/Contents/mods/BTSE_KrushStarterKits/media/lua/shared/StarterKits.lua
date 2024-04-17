@@ -73,14 +73,14 @@ PARP.Chat.Compensation["kits"] = PARP.Chat.Compensation["kits"] or {
     },
     ["burglar"] = {
         ["Base.Crowbar"] = 1,
-        ["Hat_BalaclavaFull"] = 1,
+        ["Base.Hat_BalaclavaFull"] = 1,
         ["Base.Bag_Schoolbag"] = 1,
     },
     ["chef"] = {
         ["Base.Pan"] = 1,
         ["Base.KitchenKnife"] = 1,
         ["Base.TinOpener"] = 1,
-        ["Hat_ChefHat"] = 1,
+        ["Base.Hat_ChefHat"] = 1,
         ["Base.Bag_Satchel"] = 1,
     },
     ["repairman"] = {

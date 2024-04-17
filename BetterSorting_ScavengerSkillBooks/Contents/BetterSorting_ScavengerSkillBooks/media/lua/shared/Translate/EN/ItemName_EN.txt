@@ -1,0 +1,7 @@
+ItemName_EN = {
+    ItemName_ScavengerSkill.ScavengerSkill_BookScavenging1 = "Scavenging Vol.1 Beginner",
+	ItemName_ScavengerSkill.ScavengerSkill_BookScavenging2 = "Scavenging Vol.2 Intermediate",
+	ItemName_ScavengerSkill.ScavengerSkill_BookScavenging3 = "Scavenging Vol.3 Advanced",
+	ItemName_ScavengerSkill.ScavengerSkill_BookScavenging4 = "Scavenging Vol.4 Expert",
+	ItemName_ScavengerSkill.ScavengerSkill_BookScavenging5 = "Scavenging Vol.5 Master",
+}

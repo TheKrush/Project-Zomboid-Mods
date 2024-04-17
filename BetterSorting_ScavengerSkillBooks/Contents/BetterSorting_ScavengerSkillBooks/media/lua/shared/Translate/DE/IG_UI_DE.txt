@@ -1,0 +1,4 @@
+IGUI_DE = {
+    IGUI_perks_Scavenging = "Lumpensammeln",
+	IGUI_perks_Miscellaneous = "Sonstiges",
+}

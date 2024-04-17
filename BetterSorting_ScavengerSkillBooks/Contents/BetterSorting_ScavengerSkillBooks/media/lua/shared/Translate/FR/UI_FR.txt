@@ -1,0 +1,7 @@
+UI_FR = {
+	UI_trait_vulture = "Vautour",
+	UI_trait_vulturedesc = "Vous savez où trouver des trucs.<br>+1 Fouille",
+	UI_GainSkill = "Succès de Fouille",
+	UI_ScavengerSkill_Options_ScavengerLootIndicator = "Annoncer les trouvailles de Fouille",
+	UI_ScavengerSkill_Options_ScavengerExpIndicator = "Annoncer l'Expérience de Fouille",
+}

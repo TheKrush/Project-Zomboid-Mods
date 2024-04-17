@@ -1,0 +1,6 @@
+name=BetterSorting - Scavenging Skill Patch
+id=BetterSorting_ScavengingSkillBooks
+require=ScavengingSkillFixed,ItemTweakerAPI
+description=This Patch assigns Scavenger Skillbooks to the category "Literature - Skill" in order to better integrate with BetterSorting. Also renames the books to match Little Yoschi's style if that mod is active.
+poster=poster.png
+versionMax=41.78

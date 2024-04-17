@@ -1,0 +1,5 @@
+UI_PL = {
+	UI_trait_vulture = "Sęp",
+	UI_trait_vulturedesc = "Zawsze żerowałeś na innych, dobrze wiesz gdzie ludzie chowają kosztowności<br>+1 Łupowanie",
+	UI_GainSkill = "Scavenging Success",
+}

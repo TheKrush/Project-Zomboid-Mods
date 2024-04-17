@@ -1,0 +1,7 @@
+ItemName_FR = {
+	ItemName_ScavengerSkill.ScavengerSkill_BookScavenging1 = "Fouille Vol. 1",
+	ItemName_ScavengerSkill.ScavengerSkill_BookScavenging2 = "Fouille Vol. 2",
+	ItemName_ScavengerSkill.ScavengerSkill_BookScavenging3 = "Fouille Vol. 3",
+	ItemName_ScavengerSkill.ScavengerSkill_BookScavenging4 = "Fouille Vol. 4",
+	ItemName_ScavengerSkill.ScavengerSkill_BookScavenging5 = "Fouille Vol. 5",
+}

@@ -1,0 +1,7 @@
+UI_EN = {
+	UI_trait_vulture = "Vulture",
+	UI_trait_vulturedesc = "You know where to find stuff.<br>+1 Scavenging",
+	UI_GainSkill = "Scavenging Success",
+	UI_ScavengerSkill_Options_ScavengerLootIndicator = "Announce Scavenger Finds",
+	UI_ScavengerSkill_Options_ScavengerExpIndicator = "Announce Scavenger Exp",
+}

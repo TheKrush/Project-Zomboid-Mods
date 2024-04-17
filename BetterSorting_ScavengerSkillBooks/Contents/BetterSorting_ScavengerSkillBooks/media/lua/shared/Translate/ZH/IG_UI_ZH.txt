@@ -1,0 +1,4 @@
+IGUI_ZH = {
+    IGUI_perks_Scavenging = "й╟╩д",
+	IGUI_perks_Miscellaneous = "тсоН",
+}

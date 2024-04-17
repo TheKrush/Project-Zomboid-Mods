@@ -1,0 +1,6 @@
+version=1
+id=
+title=BetterSorting - Scavenging Skill Patch
+description=This Patch assigns Scavenger Skillbooks to the category "Literature - Skill" in order to better integrate with BetterSorting. Also renames the books to match Little Yoschi's style.
+tags=Build 41
+visibility=public

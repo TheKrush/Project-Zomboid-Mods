@@ -1,0 +1,4 @@
+UI_JP = {
+    UI_trait_vulture = "ハゲタカ",
+    UI_trait_vulturedesc = "あなたはどこに何があるかを知っています。<br>+1 ゴミ漁り",
+}

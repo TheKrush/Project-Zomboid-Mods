@@ -1,0 +1,4 @@
+IGUI_RU = {
+    IGUI_perks_Scavenging = "Scavenging",
+	IGUI_perks_Miscellaneous = "Miscellaneous",
+}

@@ -1,0 +1,4 @@
+UI_RU = {
+	UI_trait_vulture = "Vulture",
+	UI_trait_vulturedesc = "You know where to find stuff.<br>+1 Scavenging",
+}

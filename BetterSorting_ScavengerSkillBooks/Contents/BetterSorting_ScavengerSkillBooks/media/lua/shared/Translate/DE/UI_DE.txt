@@ -1,0 +1,5 @@
+UI_DE = {
+	UI_trait_vulture = "Assgeier",
+	UI_trait_vulturedesc = "Du weisst, wo die guten Sachen sich verstecken.<br>+1 Lumpensammler",
+	UI_GainSkill = "Scavenging Success",
+}

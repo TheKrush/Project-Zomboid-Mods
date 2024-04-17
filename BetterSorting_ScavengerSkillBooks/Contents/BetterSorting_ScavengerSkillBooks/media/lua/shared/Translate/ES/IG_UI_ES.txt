@@ -1,0 +1,4 @@
+IGUI_ES = {
+    IGUI_perks_Scavenging = "Saqueo",
+	IGUI_perks_Miscellaneous = "Varios",
+}

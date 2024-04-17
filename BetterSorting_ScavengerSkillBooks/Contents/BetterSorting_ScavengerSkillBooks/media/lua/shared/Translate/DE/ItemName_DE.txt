@@ -1,0 +1,7 @@
+ItemName_DE = {
+	ItemName_ScavengerSkill.ScavengerSkill_BookScavenging1 = "Lumpensammeln für Anfänger",
+	ItemName_ScavengerSkill.ScavengerSkill_BookScavenging2 = "Lumpensammeln für fortgeschrittene Anfänger",
+	ItemName_ScavengerSkill.ScavengerSkill_BookScavenging3 = "Lumpensammeln für Fortgeschrittene",
+	ItemName_ScavengerSkill.ScavengerSkill_BookScavenging4 = "Lumpensammeln für Experten",
+	ItemName_ScavengerSkill.ScavengerSkill_BookScavenging5 = "Lumpensammeln für Meister",
+}

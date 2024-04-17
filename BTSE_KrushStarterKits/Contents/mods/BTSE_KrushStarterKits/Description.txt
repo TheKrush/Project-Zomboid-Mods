@@ -1,0 +1,50 @@
+[h1]bikinitools [SE] 124: Krush's Starter Kits[/h1]
+Starter Kits for bikinitools
+
+[b]Unemployed[/b][list][*]Base.Garbagebag[*]Base.WaterBottleFull[*]Base.Crisps[*]Base.Bag_FannyPackFront[*]Base.Duffelbag[/list]
+
+[b]Fire Officer[/b][list][*]Base.Axe[*]Base.Hat_Fireman[*]Base.Hat_DustMask[*]Base.Bag_SatchelPolice[/list]
+
+[b]Police Officer[/b][list][*]Base.M9[*]Base.9mmClip[*]Base.Bullets9mmBox[*]Base.Hat_Police[*]Base.Glasses_Aviators[*]Base.Bag_Satchel[/list]
+
+[b]Park Ranger[/b][list][*]Base.WaterBottleFull[*]Base.Hat_Ranger[*]Base.Bag_NormalHikingBag[/list]
+
+[b]Construction Worker[/b][list][*]Base.MetalPipe[*]Base.Lunchbox[*]Base.Hat_HardHat[*]Base.Glasses_SafetyGoggles[*]Base.Bag_Satchel[/list]
+
+[b]Security Guard[/b][list][*]Base.Nightstick[*]Base.HandTorch[*]Base.Battery[*]Base.Bag_FannyPackFront[*]Base.Bag_Satchel[/list]
+
+[b]Carpenter[/b][list][*]Base.Hammer[*]Base.Saw[*]Base.NailsBox[*]Base.Glasses_SafetyGoggles[*]Base.Bag_Satchel[/list]
+
+[b]Burglar[/b][list][*]Base.Crowbar[*]Hat_BalaclavaFull[*]Base.Bag_Schoolbag[/list]
+
+[b]Chef[/b][list][*]Base.Pan[*]Base.KitchenKnife[*]Base.TinOpener[*]Hat_ChefHat[*]Base.Bag_Satchel[/list]
+
+[b]Repairman[/b][list][*]Base.Hammer[*]Base.Glue[*]Base.DuctTape[*]Base.Toolbox[*]Base.Bag_Satchel[/list]
+
+[b]Farmer[/b][list][*]Base.Shovel[*]Base.TomatoBagSeed[*]Base.Dirtbag[*]Base.Bag_Satchel[/list]
+
+[b]Fisherman[/b][list][*]Base.FishingRod[*]Base.FishingNet[*]Base.FishingTackle[*]Base.Bag_Satchel[/list]
+
+[b]Doctor[/b][list][*]Base.Scalpel[*]Base.SutureNeedle[*]Base.SutureNeedleHolder[*]Base.Tweezers[*]Base.Gloves_Surgical[*]Base.Hat_SurgicalMask_Blue[*]Base.Bag_Satchel[/list]
+
+[b]Veteran[/b][list][*]Base.Ithaca37[*]Base.ShotgunShellsBox[*]Base.Hat_BonnieHat_CamoGreen[*]Base.Bag_Satchel[/list]
+
+[b]Nurse[/b][list][*]Base.Scissors[*]Base.Bandaid[*]Base.AlcoholWipes[*]Base.Pills[*]Base.Hat_SurgicalCap_Blue[*]Base.FirstAidKit[*]Base.Bag_Satchel[/list]
+
+[b]Lumberjack[/b][list][*]Base.Axe[*]Base.Hat_Raccoon[*]Base.Bag_Satchel[/list]
+
+[b]Fitness Instructor[/b][list][*]Base.PillsVitamins[*]Base.Hat_Sweatband[*]Base.Earbuds[*]Base.BathTowel[*]Base.Hat_VisorRed[*]Base.Duffelbag[/list]
+
+[b]Burger Flipper[/b][list][*]Base.GriddlePan[*]Base.MeatCleaver[*]Base.Burger[*]Base.Hat_FastFood_Spiffo[*]Base.Bag_Satchel[/list]
+
+[b]Electrician[/b][list][*]Base.Screwdriver[*]Base.Battery[*]Base.Glue[*]Base.Gloves_LeatherGloves[*]Base.Bag_Satchel[/list]
+
+[b]Engineer[/b][list][*]Base.MetalPipe[*]Base.Saw[*]Base.Twine[*]Base.Glasses_SafetyGoggles[*]Base.Bag_Satchel[/list]
+
+[b]Metalworker[/b][list][*]Base.WeldingMask[*]Base.BlowTorch[*]Base.Bag_Satchel[/list]
+
+[b]Mechanic[/b][list][*]Base.Spanner[*]Base.LugWrench[*]Base.TirePump[*]Base.Jack[*]Base.Glasses_SafetyGoggles[*]Base.Bag_Satchel[/list]
+
+[hr][/hr]
+Workshop ID: 3224587368
+Mod ID: BTSE_KrushStarterKits

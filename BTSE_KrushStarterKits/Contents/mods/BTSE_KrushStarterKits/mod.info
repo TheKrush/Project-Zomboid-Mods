@@ -1,0 +1,6 @@
+name=bikinitools [SE] 124: Krush's Starter Kits
+id=BTSE_KrushStarterKits
+require=BTSE_Chat
+description=Starter Kits for bikinitools
+poster=poster.png
+versionMax=41.78

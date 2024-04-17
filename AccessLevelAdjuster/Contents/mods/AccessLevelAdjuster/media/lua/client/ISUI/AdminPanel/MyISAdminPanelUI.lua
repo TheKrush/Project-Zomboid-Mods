@@ -10,7 +10,6 @@ require "AccessLevelCheck"
 local original_create = ISAdminPanelUI:create
 
 function ISAdminPanelUI:create()
-
     local btnWid = 150
     local btnHgt = math.max(25, FONT_HGT_SMALL + 3 * 2)
     local btnGapY = 5
@@ -38,6 +37,7 @@ function ISAdminPanelUI:create()
     self.dbBtn:instantiate();
     self.dbBtn.borderColor = self.buttonBorderColor;
     self:addChild(self.dbBtn);
+
     y = y + btnHgt + btnGapY
 
     self.checkStatsBtn = ISButton:new(10, y, btnWid, btnHgt, getText("IGUI_AdminPanel_CheckYourStats"), self, ISAdminPanelUI.onOptionMouseDown);
@@ -46,6 +46,7 @@ function ISAdminPanelUI:create()
     self.checkStatsBtn:instantiate();
     self.checkStatsBtn.borderColor = self.buttonBorderColor;
     self:addChild(self.checkStatsBtn);
+
     y = y + btnHgt + btnGapY
 
     local title = getText("IGUI_AdminPanel_AdminPower")
@@ -56,6 +57,7 @@ function ISAdminPanelUI:create()
     self.adminPowerBtn.borderColor = self.buttonBorderColor;
     self.adminPowerBtn.tooltip = getText("IGUI_AdminPanel_TooltipEditAdminPower");
     self:addChild(self.adminPowerBtn);
+
     y = y + btnHgt + btnGapY
 
     local title = getText("IGUI_AdminPanel_ItemList")
@@ -66,22 +68,23 @@ function ISAdminPanelUI:create()
     self.itemListBtn.borderColor = self.buttonBorderColor;
 --    self.itemListBtn.tooltip = getText("IGUI_AdminPanel_TooltipEditAdminPower");
     self:addChild(self.itemListBtn);
-    y = y + btnHgt + btnGapY
 
+    y = y + btnHgt + btnGapY
     self.seeOptionsBtn = ISButton:new(10, y, btnWid, btnHgt, getText("IGUI_AdminPanel_SeeServerOptions"), self, ISAdminPanelUI.onOptionMouseDown);
     self.seeOptionsBtn.internal = "SEEOPTIONS";
     self.seeOptionsBtn:initialise();
     self.seeOptionsBtn:instantiate();
     self.seeOptionsBtn.borderColor = self.buttonBorderColor;
     self:addChild(self.seeOptionsBtn);
-    y = y + btnHgt + btnGapY
 
+    y = y + btnHgt + btnGapY
     self.nonpvpzoneBtn = ISButton:new(10, y, btnWid, btnHgt, getText("IGUI_AdminPanel_NonPvpZone"), self, ISAdminPanelUI.onOptionMouseDown);
     self.nonpvpzoneBtn.internal = "NONPVPZONE";
     self.nonpvpzoneBtn:initialise();
     self.nonpvpzoneBtn:instantiate();
     self.nonpvpzoneBtn.borderColor = self.buttonBorderColor;
     self:addChild(self.nonpvpzoneBtn);
+
     y = y + btnHgt + btnGapY
 
     self.seeFactionBtn = ISButton:new(10, y, btnWid, btnHgt, getText("IGUI_AdminPanel_SeeFaction") .. " (" .. Faction.getFactions():size() ..")", self, ISAdminPanelUI.onOptionMouseDown);
@@ -90,7 +93,6 @@ function ISAdminPanelUI:create()
     self.seeFactionBtn:instantiate();
     self.seeFactionBtn.borderColor = self.buttonBorderColor;
     self:addChild(self.seeFactionBtn);
-
     y = y + btnHgt + btnGapY
 
     self.seeSafehousesBtn = ISButton:new(10, y, btnWid, btnHgt, getText("IGUI_AdminPanel_SeeSafehouses") .. " (".. SafeHouse.getSafehouseList():size() .. ")", self, ISAdminPanelUI.onOptionMouseDown);
@@ -199,12 +201,10 @@ function ISAdminPanelUI:updateButtons()
     else
         self:close();
     end;
-
     self.dbBtn.enable = false;
     if checkAccessLevel("gm") then
         self.dbBtn.enable = enabled;
     end
-
     self.checkStatsBtn.enable = enabled;
     self.seeOptionsBtn.enable = enabled;
     self.seeFactionBtn.enable = enabled;
@@ -217,14 +217,10 @@ function ISAdminPanelUI:updateButtons()
     self.itemListBtn.enable = enabled;
     self.climateOptionsBtn.enable = enabled;
     self.showStatisticsBtn.enable = enabled;
-
     self.nonpvpzoneBtn.enable = false;
-    if checkAccessLevel("moderator") then
-        self.safezoneBtn.enable = enabled;
-    end
-
     self.safezoneBtn.enable = false;
     if checkAccessLevel("moderator") then
+        self.nonpvpzoneBtn.enable = enabled;
         self.safezoneBtn.enable = enabled;
     end
 end

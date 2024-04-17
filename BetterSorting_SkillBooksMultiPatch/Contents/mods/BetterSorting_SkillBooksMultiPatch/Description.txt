@@ -1,0 +1,9 @@
+[h1]BetterSorting - Skill Books Multi Patch[/h1]
+This patch modifies skill books from various other mods to the "Literature - Skill" category, but only if they are active.
+
+[b]Supported Mods[/b]
+[list][*]LY_Skillbooks_passive[*]LY_Skillbooks_agility[*]LY_Skillbooks_melee[*]LY_Skillbooks_maintenance[*]LY_Skillbooks_lockpicking[*]LY_Skillbooks_firearms[*]ScavengingSkillFixed[*]zReBetterLockpickingLYSLP[/list]
+
+[hr][/hr]
+Workshop ID: 3224643834
+Mod ID: BetterSorting_SkillBooksMultiPatch

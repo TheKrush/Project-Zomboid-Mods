@@ -1,9 +1,9 @@
 [h1]Better Sorting - Krush's Literature Patch[/h1]
-[b][i]Needs to be loaded last for naming changes.[/i][/b]
+[b][i]LOAD LAST FOR NAME OVERWRITES[/i][/b]
 
 This patch modifies skill books from various other mods to the "Literature - Skill" category, but only if they are active. Also, will change display name of some skill books to a common format.
 
-[b]Supported Mods - Category Patch[/b]
+[b]Supported Mods[/b]
 [list][*]DrivingSkill[*]LY_Skillbooks_passive[*]LY_Skillbooks_agility[*]LY_Skillbooks_melee[*]LY_Skillbooks_maintenance[*]LY_Skillbooks_lockpicking[*]LY_Skillbooks_firearms[*]ScavengingSkillFixed[*]zReBetterLockpickingLYSLP[/list]
 
 [hr][/hr]

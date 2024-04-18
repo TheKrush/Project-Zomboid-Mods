@@ -1,5 +1,10 @@
 ItemName_EN = {
-    ItemName_ScavengerSkill.ScavengerSkill_BookScavenging1 = "Scavenging Vol.1 Beginner",
+	ItemName_DrivingSkill.DrivingSkill_BookDriving1 = "Driving Vol.1: Beginner",
+	ItemName_DrivingSkill.DrivingSkill_BookDriving2 = "Driving Vol.2: Intermediate",
+	ItemName_DrivingSkill.DrivingSkill_BookDriving3 = "Driving Vol.3: Advanced",
+	ItemName_DrivingSkill.DrivingSkill_BookDriving4 = "Driving Vol.4: Expert",
+	ItemName_DrivingSkill.DrivingSkill_BookDriving5 = "Driving Vol.5: Master",
+	ItemName_ScavengerSkill.ScavengerSkill_BookScavenging1 = "Scavenging Vol.1 Beginner",
 	ItemName_ScavengerSkill.ScavengerSkill_BookScavenging2 = "Scavenging Vol.2 Intermediate",
 	ItemName_ScavengerSkill.ScavengerSkill_BookScavenging3 = "Scavenging Vol.3 Advanced",
 	ItemName_ScavengerSkill.ScavengerSkill_BookScavenging4 = "Scavenging Vol.4 Expert",

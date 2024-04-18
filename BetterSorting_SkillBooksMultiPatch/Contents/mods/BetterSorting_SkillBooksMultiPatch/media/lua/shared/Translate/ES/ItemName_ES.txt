@@ -1,7 +1,0 @@
-ItemName_ES = {
-    ItemName_ScavengerSkill.ScavengerSkill_BookScavenging1 = "Saqueo para novatos",
-	ItemName_ScavengerSkill.ScavengerSkill_BookScavenging2 = "Saqueo intermedio",
-	ItemName_ScavengerSkill.ScavengerSkill_BookScavenging3 = "Saqueo avanzado",
-	ItemName_ScavengerSkill.ScavengerSkill_BookScavenging4 = "Saqueo para expertos",
-	ItemName_ScavengerSkill.ScavengerSkill_BookScavenging5 = "Maestro del saqueo",
-}

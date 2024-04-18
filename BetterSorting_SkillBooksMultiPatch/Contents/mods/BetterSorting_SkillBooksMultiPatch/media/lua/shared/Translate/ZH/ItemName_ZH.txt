@@ -1,7 +1,0 @@
-ItemName_ZH = {
-    ItemName_ScavengerSkill.ScavengerSkill_BookScavenging1 = "拾荒Vol.1初级",
-	ItemName_ScavengerSkill.ScavengerSkill_BookScavenging2 = "拾荒Vol.2中级",
-	ItemName_ScavengerSkill.ScavengerSkill_BookScavenging3 = "拾荒Vol.3高级",
-	ItemName_ScavengerSkill.ScavengerSkill_BookScavenging4 = "拾荒Vol.4专家",
-	ItemName_ScavengerSkill.ScavengerSkill_BookScavenging5 = "拾荒Vol.5大师",
-}

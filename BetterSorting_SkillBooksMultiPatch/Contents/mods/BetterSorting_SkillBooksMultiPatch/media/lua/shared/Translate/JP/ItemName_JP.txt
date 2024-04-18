@@ -1,7 +1,0 @@
-ItemName_JP = {
-    ItemName_ScavengerSkill.ScavengerSkill_BookScavenging1 = "書籍(初心者のゴミ漁り入門)",
-    ItemName_ScavengerSkill.ScavengerSkill_BookScavenging2 = "書籍(中級者のゴミ漁り講座)",
-    ItemName_ScavengerSkill.ScavengerSkill_BookScavenging3 = "書籍(上級者のゴミ漁り講座)",
-    ItemName_ScavengerSkill.ScavengerSkill_BookScavenging4 = "書籍(熟練者のゴミ漁り)",
-    ItemName_ScavengerSkill.ScavengerSkill_BookScavenging5 = "書籍(匠のゴミ漁り)",
-}

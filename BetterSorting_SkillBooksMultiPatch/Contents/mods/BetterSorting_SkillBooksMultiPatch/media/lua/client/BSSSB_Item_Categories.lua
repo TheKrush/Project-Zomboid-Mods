@@ -2,6 +2,14 @@ if getActivatedMods():contains("ItemTweakerAPI") then
 	require("ItemTweaker_Core");
 else return end
 
+if getActivatedMods():contains("DrivingSkill") then
+	TweakItem("DrivingSkill.DrivingSkill_BookDriving1","DisplayCategory","LitS");
+	TweakItem("DrivingSkill.DrivingSkill_BookDriving2","DisplayCategory","LitS");
+	TweakItem("DrivingSkill.DrivingSkill_BookDriving3","DisplayCategory","LitS");
+	TweakItem("DrivingSkill.DrivingSkill_BookDriving4","DisplayCategory","LitS");
+	TweakItem("DrivingSkill.DrivingSkill_BookDriving5","DisplayCategory","LitS");
+end
+
 if getActivatedMods():contains("LY_Skillbooks_passive") then
 	TweakItem("LY_Skillbooks.BookFitness1","DisplayCategory","LitS");
 	TweakItem("LY_Skillbooks.BookFitness2","DisplayCategory","LitS");

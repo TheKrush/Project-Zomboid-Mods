@@ -1,7 +1,0 @@
-ItemName_CH = {
-    ItemName_ScavengerSkill.ScavengerSkill_BookScavenging1 = "¬B¯î1¯Å-¤Jªù",
-	ItemName_ScavengerSkill.ScavengerSkill_BookScavenging2 = "¬B¯î2¯Å-¤¤¯Å",
-	ItemName_ScavengerSkill.ScavengerSkill_BookScavenging3 = "¬B¯î3¯Å-¶i¶¥",
-	ItemName_ScavengerSkill.ScavengerSkill_BookScavenging4 = "¬B¯î4¯Å-±M®a",
-	ItemName_ScavengerSkill.ScavengerSkill_BookScavenging5 = "¬B¯î5¯Å-¤j®v",
-}

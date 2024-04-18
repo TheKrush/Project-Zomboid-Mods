@@ -1,7 +1,0 @@
-ItemName_RU = {
-    ItemName_ScavengerSkill.ScavengerSkill_BookScavenging1 = "Scavenging for Beginners",
-	ItemName_ScavengerSkill.ScavengerSkill_BookScavenging2 = "Scavenging for Intermediates",
-	ItemName_ScavengerSkill.ScavengerSkill_BookScavenging3 = "Advanced Scavenging",
-	ItemName_ScavengerSkill.ScavengerSkill_BookScavenging4 = "Expert Scavenging",
-	ItemName_ScavengerSkill.ScavengerSkill_BookScavenging5 = "Master Scavenging",
-}

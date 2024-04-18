@@ -1,7 +1,0 @@
-ItemName_PL = {
-    ItemName_ScavengerSkill.ScavengerSkill_BookScavenging1 = "Łupowanie Tom 1",
-	ItemName_ScavengerSkill.ScavengerSkill_BookScavenging2 = "Łupowanie Tom 2",
-	ItemName_ScavengerSkill.ScavengerSkill_BookScavenging3 = "Łupowanie Tom 3",
-	ItemName_ScavengerSkill.ScavengerSkill_BookScavenging4 = "Łupowanie Tom 4",
-	ItemName_ScavengerSkill.ScavengerSkill_BookScavenging5 = "Łupowanie Tom 5",
-}

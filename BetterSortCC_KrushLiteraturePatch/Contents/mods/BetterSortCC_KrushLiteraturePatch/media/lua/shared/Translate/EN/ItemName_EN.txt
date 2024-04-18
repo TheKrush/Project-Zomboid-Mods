@@ -1,12 +1,8 @@
 ItemName_EN = {
-	-- DrivingSkill
-	ItemName_DrivingSkill.DrivingSkill_BookDriving1 = "Driving Vol.1: Beginner",
-	ItemName_DrivingSkill.DrivingSkill_BookDriving2 = "Driving Vol.2: Intermediate",
-	ItemName_DrivingSkill.DrivingSkill_BookDriving3 = "Driving Vol.3: Advanced",
-	ItemName_DrivingSkill.DrivingSkill_BookDriving4 = "Driving Vol.4: Expert",
-	ItemName_DrivingSkill.DrivingSkill_BookDriving5 = "Driving Vol.5: Master",
 
-	-- LY_Skillbooks_passive
+	/************** SKILL BOOKS **************/
+
+	-- Passive : LY_Skillbooks_passive
 	ItemName_LY_Skillbooks.BookFitness1 = "Fitness Vol.1: Beginner",
 	ItemName_LY_Skillbooks.BookFitness2 = "Fitness Vol.2: Intermediate",
 	ItemName_LY_Skillbooks.BookFitness3 = "Fitness Vol.3: Advanced",
@@ -18,7 +14,7 @@ ItemName_EN = {
 	ItemName_LY_Skillbooks.BookStrength4 = "Strength Vol.4: Expert",
 	ItemName_LY_Skillbooks.BookStrength5 = "Strength Vol.5: Master",
 
-	-- LY_Skillbooks_agility
+	-- Agility : LY_Skillbooks_agility
 	ItemName_LY_Skillbooks.BookSprinting1 = "Sprinting Vol.1: Beginner",
 	ItemName_LY_Skillbooks.BookSprinting2 = "Sprinting Vol.2: Intermediate",
 	ItemName_LY_Skillbooks.BookSprinting3 = "Sprinting Vol.3: Advanced",
@@ -40,7 +36,7 @@ ItemName_EN = {
 	ItemName_LY_Skillbooks.BookSneaking4 = "Sneaking Vol.4: Expert",
 	ItemName_LY_Skillbooks.BookSneaking5 = "Sneaking Vol.5: Master",
 
-	-- LY_Skillbooks_melee
+	-- Combat : LY_Skillbooks_melee
 	ItemName_LY_Skillbooks.BookAxe1 = "Axe Vol.1: Beginner",
 	ItemName_LY_Skillbooks.BookAxe2 = "Axe Vol.2: Intermediate",
 	ItemName_LY_Skillbooks.BookAxe3 = "Axe Vol.3: Advanced",
@@ -72,14 +68,14 @@ ItemName_EN = {
 	ItemName_LY_Skillbooks.BookSpear4 = "Spear Vol.4: Expert",
 	ItemName_LY_Skillbooks.BookSpear5 = "Spear Vol.5: Master",
 
-	-- LY_Skillbooks_maintenance
+	-- Combat : LY_Skillbooks_maintenance
 	ItemName_LY_Skillbooks.BookMaintenance1 = "Maintenance Vol.1: Beginner",
 	ItemName_LY_Skillbooks.BookMaintenance2 = "Maintenance Vol.2: Intermediate",
 	ItemName_LY_Skillbooks.BookMaintenance3 = "Maintenance Vol.3: Advanced",
 	ItemName_LY_Skillbooks.BookMaintenance4 = "Maintenance Vol.4: Expert",
 	ItemName_LY_Skillbooks.BookMaintenance5 = "Maintenance Vol.5: Master",
 
-	-- LY_Skillbooks_vanilla_books_sorting
+	-- Crafting : Vanilla
 	ItemName_Base.BookCarpentry1 = "Carpentry Vol.1: Beginner",
 	ItemName_Base.BookCarpentry2 = "Carpentry Vol.2: Intermediate",
 	ItemName_Base.BookCarpentry3 = "Carpentry Vol.3: Advanced",
@@ -100,26 +96,61 @@ ItemName_EN = {
 	ItemName_Base.BookFirstAid3 = "First Aid Vol.3: Advanced",
 	ItemName_Base.BookFirstAid4 = "First Aid Vol.4: Expert",
 	ItemName_Base.BookFirstAid5 = "First Aid Vol.5: Master",
-	ItemName_Base.BookElectrician1 = "Electrician Vol.1: Beginner",
-	ItemName_Base.BookElectrician2 = "Electrician Vol.2: Intermediate",
-	ItemName_Base.BookElectrician3 = "Electrician Vol.3: Advanced",
-	ItemName_Base.BookElectrician4 = "Electrician Vol.4: Expert",
-	ItemName_Base.BookElectrician5 = "Electrician Vol.5: Master",
-	ItemName_Base.BookMetalWelding1 = "Metalwork Vol.1: Beginner",
-	ItemName_Base.BookMetalWelding2 = "Metalwork Vol.2: Intermediate",
-	ItemName_Base.BookMetalWelding3 = "Metalwork Vol.3: Advanced",
-	ItemName_Base.BookMetalWelding4 = "Metalwork Vol.4: Expert",
-	ItemName_Base.BookMetalWelding5 = "Metalwork Vol.5: Master",
-	ItemName_Base.BookMechanic1 = "Mechanic Vol.1: Beginner",
-	ItemName_Base.BookMechanic2 = "Mechanic Vol.2: Intermediate",
-	ItemName_Base.BookMechanic3 = "Mechanic Vol.3: Advanced",
-	ItemName_Base.BookMechanic4 = "Mechanic Vol.4: Expert",
-	ItemName_Base.BookMechanic5 = "Mechanic Vol.5: Master",
+	ItemName_Base.BookElectrician1 = "Electrical Vol.1: Beginner",
+	ItemName_Base.BookElectrician2 = "Electrical Vol.2: Intermediate",
+	ItemName_Base.BookElectrician3 = "Electrical Vol.3: Advanced",
+	ItemName_Base.BookElectrician4 = "Electrical Vol.4: Expert",
+	ItemName_Base.BookElectrician5 = "Electrical Vol.5: Master",
+	ItemName_Base.BookMetalWelding1 = "Metalworking Vol.1: Beginner",
+	ItemName_Base.BookMetalWelding2 = "Metalworking Vol.2: Intermediate",
+	ItemName_Base.BookMetalWelding3 = "Metalworking Vol.3: Advanced",
+	ItemName_Base.BookMetalWelding4 = "Metalworking Vol.4: Expert",
+	ItemName_Base.BookMetalWelding5 = "Metalworking Vol.5: Master",
+	ItemName_Base.BookMechanic1 = "Mechanics Vol.1: Beginner",
+	ItemName_Base.BookMechanic2 = "Mechanics Vol.2: Intermediate",
+	ItemName_Base.BookMechanic3 = "Mechanics Vol.3: Advanced",
+	ItemName_Base.BookMechanic4 = "Mechanics Vol.4: Expert",
+	ItemName_Base.BookMechanic5 = "Mechanics Vol.5: Master",
 	ItemName_Base.BookTailoring1 = "Tailoring Vol.1: Beginner",
 	ItemName_Base.BookTailoring2 = "Tailoring Vol.2: Intermediate",
 	ItemName_Base.BookTailoring3 = "Tailoring Vol.3: Advanced",
 	ItemName_Base.BookTailoring4 = "Tailoring Vol.4: Expert",
 	ItemName_Base.BookTailoring5 = "Tailoring Vol.5: Master",
+
+	-- Firearm : LY_Skillbooks_firearms
+	ItemName_LY_Skillbooks.BookAiming1 = "Aiming Vol.1: Beginner",
+	ItemName_LY_Skillbooks.BookAiming2 = "Aiming Vol.2: Intermediate",
+	ItemName_LY_Skillbooks.BookAiming3 = "Aiming Vol.3: Advanced",
+	ItemName_LY_Skillbooks.BookAiming4 = "Aiming Vol.4: Expert",
+	ItemName_LY_Skillbooks.BookAiming5 = "Aiming Vol.5: Master",
+	ItemName_LY_Skillbooks.BookReloading1 = "Reloading Vol.1: Beginner",
+	ItemName_LY_Skillbooks.BookReloading2 = "Reloading Vol.2: Intermediate",
+	ItemName_LY_Skillbooks.BookReloading3 = "Reloading Vol.3: Advanced",
+	ItemName_LY_Skillbooks.BookReloading4 = "Reloading Vol.4: Expert",
+	ItemName_LY_Skillbooks.BookReloading5 = "Reloading Vol.5: Master",
+
+	-- Miscellaneous : LY_Skillbooks_lockpicking / zReBetterLockpickingLYSLP
+	ItemName_LY_Skillbooks.BookLockpicking1 = "Lockpicking Vol.1: Beginner",
+	ItemName_LY_Skillbooks.BookLockpicking2 = "Lockpicking Vol.2: Intermediate",
+	ItemName_LY_Skillbooks.BookLockpicking3 = "Lockpicking Vol.3: Advanced",
+	ItemName_LY_Skillbooks.BookLockpicking4 = "Lockpicking Vol.4: Expert",
+	ItemName_LY_Skillbooks.BookLockpicking5 = "Lockpicking Vol.5: Master",
+
+	-- Miscellaneous : DrivingSkill
+	ItemName_DrivingSkill.DrivingSkill_BookDriving1 = "Driving Vol.1: Beginner",
+	ItemName_DrivingSkill.DrivingSkill_BookDriving2 = "Driving Vol.2: Intermediate",
+	ItemName_DrivingSkill.DrivingSkill_BookDriving3 = "Driving Vol.3: Advanced",
+	ItemName_DrivingSkill.DrivingSkill_BookDriving4 = "Driving Vol.4: Expert",
+	ItemName_DrivingSkill.DrivingSkill_BookDriving5 = "Driving Vol.5: Master",
+
+	-- Miscellaneous : ScavengingSkillFixed
+	ItemName_ScavengerSkill.ScavengerSkill_BookScavenging1 = "Scavenging Vol.1 Beginner",
+	ItemName_ScavengerSkill.ScavengerSkill_BookScavenging2 = "Scavenging Vol.2 Intermediate",
+	ItemName_ScavengerSkill.ScavengerSkill_BookScavenging3 = "Scavenging Vol.3 Advanced",
+	ItemName_ScavengerSkill.ScavengerSkill_BookScavenging4 = "Scavenging Vol.4 Expert",
+	ItemName_ScavengerSkill.ScavengerSkill_BookScavenging5 = "Scavenging Vol.5 Master",
+
+	-- Survivalist : Vanilla
 	ItemName_Base.BookFishing1 = "Fishing Vol.1: Beginner",
 	ItemName_Base.BookFishing2 = "Fishing Vol.2: Intermediate",
 	ItemName_Base.BookFishing3 = "Fishing Vol.3: Advanced",
@@ -136,33 +167,8 @@ ItemName_EN = {
 	ItemName_Base.BookForaging4 = "Foraging Vol.4: Expert",
 	ItemName_Base.BookForaging5 = "Foraging Vol.5: Master",
 
-	-- LY_Skillbooks_lockpicking / zReBetterLockpickingLYSLP
-	ItemName_LY_Skillbooks.BookLockpicking1 = "Lockpicking Vol.1: Beginner",
-	ItemName_LY_Skillbooks.BookLockpicking2 = "Lockpicking Vol.2: Intermediate",
-	ItemName_LY_Skillbooks.BookLockpicking3 = "Lockpicking Vol.3: Advanced",
-	ItemName_LY_Skillbooks.BookLockpicking4 = "Lockpicking Vol.4: Expert",
-	ItemName_LY_Skillbooks.BookLockpicking5 = "Lockpicking Vol.5: Master",
-
-	-- LY_Skillbooks_firearms
-	ItemName_LY_Skillbooks.BookAiming1 = "Aiming Vol.1: Beginner",
-	ItemName_LY_Skillbooks.BookAiming2 = "Aiming Vol.2: Intermediate",
-	ItemName_LY_Skillbooks.BookAiming3 = "Aiming Vol.3: Advanced",
-	ItemName_LY_Skillbooks.BookAiming4 = "Aiming Vol.4: Expert",
-	ItemName_LY_Skillbooks.BookAiming5 = "Aiming Vol.5: Master",
-	ItemName_LY_Skillbooks.BookReloading1 = "Reloading Vol.1: Beginner",
-	ItemName_LY_Skillbooks.BookReloading2 = "Reloading Vol.2: Intermediate",
-	ItemName_LY_Skillbooks.BookReloading3 = "Reloading Vol.3: Advanced",
-	ItemName_LY_Skillbooks.BookReloading4 = "Reloading Vol.4: Expert",
-	ItemName_LY_Skillbooks.BookReloading5 = "Reloading Vol.5: Master",
-
-	-- ScavengingSkillFixed
-	ItemName_ScavengerSkill.ScavengerSkill_BookScavenging1 = "Scavenging Vol.1 Beginner",
-	ItemName_ScavengerSkill.ScavengerSkill_BookScavenging2 = "Scavenging Vol.2 Intermediate",
-	ItemName_ScavengerSkill.ScavengerSkill_BookScavenging3 = "Scavenging Vol.3 Advanced",
-	ItemName_ScavengerSkill.ScavengerSkill_BookScavenging4 = "Scavenging Vol.4 Expert",
-	ItemName_ScavengerSkill.ScavengerSkill_BookScavenging5 = "Scavenging Vol.5 Master",
-
 	/************** RECIPE MAGAZINES **************/
+
 	ItemName_Radio.RadioMag1 = "Raidios USA Vol. 1",
 	ItemName_Radio.RadioMag2 = "Raidios USA Vol. 2",
 	ItemName_Radio.RadioMag3 = "Raidios USA Vol. 3",
@@ -195,6 +201,7 @@ ItemName_EN = {
 	ItemName_Base.FarmingMag1 = "Farming Almanac",
 
 	/************** RECIPE MAGAZINES FROM MODS **************/
+
 	ItemName_SapphCooking.AsianFoodMagazine	= "Foods Around The World Vol. 1",
 	ItemName_SapphCooking.EuropeFoodMagazine = "Foods Around The World Vol. 2",
 	ItemName_SapphCooking.PastaDoughMagazine = "Foods Around The World Vol. 3",

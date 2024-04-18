@@ -1,4 +1,0 @@
-IGUI_FR = {
-    IGUI_perks_Scavenging = "Fouille",
-	IGUI_perks_Miscellaneous = "Divers",
-}

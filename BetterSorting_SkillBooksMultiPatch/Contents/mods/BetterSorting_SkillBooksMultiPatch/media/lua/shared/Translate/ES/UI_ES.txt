@@ -1,4 +1,0 @@
-UI_ES = {
-	UI_trait_vulture = "Buitre",
-	UI_trait_vulturedesc = "Sabes donde encontrar objetos.<br>+1 Saqueo",
-}

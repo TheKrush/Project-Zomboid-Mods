@@ -1,4 +1,0 @@
-IG_UI_JP = {
-    IGUI_perks_Miscellaneous = "その他",
-    IGUI_perks_Scavenging = "ゴミ漁り",
-}

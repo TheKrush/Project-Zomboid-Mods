@@ -1,4 +1,0 @@
-IGUI_CH = {
-    IGUI_perks_Scavenging = "¬B¯î",
-	IGUI_perks_Miscellaneous = "¨ä¥L",
-}

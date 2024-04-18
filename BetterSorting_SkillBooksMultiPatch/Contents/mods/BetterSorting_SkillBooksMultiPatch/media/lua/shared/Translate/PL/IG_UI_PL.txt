@@ -1,4 +1,0 @@
-IGUI_PL = {
-    IGUI_perks_Scavenging = "Łupowanie",
-	IGUI_perks_Miscellaneous = "Inne",
-}

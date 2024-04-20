@@ -117,6 +117,13 @@ ItemName_EN = {
 	ItemName_Base.BookTailoring4 = "Tailoring Vol.4: Expert",
 	ItemName_Base.BookTailoring5 = "Tailoring Vol.5: Master",
 
+	-- Cultivation : MoreSmokes
+	ItemName_MoreSmokes.BookCultivation1 = "Cultivation Vol.1 Beginner",
+	ItemName_MoreSmokes.BookCultivation2 = "Cultivation Vol.2 Intermediate",
+	ItemName_MoreSmokes.BookCultivation3 = "Cultivation Vol.3 Advanced",
+	ItemName_MoreSmokes.BookCultivation4 = "Cultivation Vol.4 Expert",
+	ItemName_MoreSmokes.BookCultivation5 = "Cultivation Vol.5 Master",
+
 	-- Firearm : LY_Skillbooks_firearms
 	ItemName_LY_Skillbooks.BookAiming1 = "Aiming Vol.1: Beginner",
 	ItemName_LY_Skillbooks.BookAiming2 = "Aiming Vol.2: Intermediate",

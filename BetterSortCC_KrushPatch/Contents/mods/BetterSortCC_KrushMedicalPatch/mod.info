@@ -8,6 +8,4 @@ description=LOAD LAST FOR NAME OVERWRITES<LINE>
 description=<LINE>
 description=This patch modifies some items to mark them as the 'Medical' category.<LINE>
 description=<LINE>
-description=Supported Mods<LINE>
-description=• BB_FirstAidOverhaul<LINE>
-description=• BB_FirstAidOverhaul_Alt<LINE>
+description=Supported Mods<LINE>=- BB_FirstAidOverhaul<LINE>=- BB_FirstAidOverhaul_Alt<LINE>

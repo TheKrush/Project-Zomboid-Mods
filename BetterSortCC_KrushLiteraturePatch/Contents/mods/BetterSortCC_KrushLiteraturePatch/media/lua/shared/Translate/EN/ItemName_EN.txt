@@ -117,7 +117,7 @@ ItemName_EN = {
 	ItemName_Base.BookTailoring4 = "Tailoring Vol.4: Expert",
 	ItemName_Base.BookTailoring5 = "Tailoring Vol.5: Master",
 
-	-- Cultivation : MoreSmokes
+	-- Crafting : MoreSmokes
 	ItemName_MoreSmokes.BookCultivation1 = "Cultivation Vol.1 Beginner",
 	ItemName_MoreSmokes.BookCultivation2 = "Cultivation Vol.2 Intermediate",
 	ItemName_MoreSmokes.BookCultivation3 = "Cultivation Vol.3 Advanced",

@@ -1,0 +1,7 @@
+[h1]Better Sorting - Krush's Base Patch[/h1]
+
+This is a helper mod for common functions the others use.
+
+[hr][/hr]
+Workshop ID: 3224643834
+Mod ID: BetterSortCC_KrushBasePatch

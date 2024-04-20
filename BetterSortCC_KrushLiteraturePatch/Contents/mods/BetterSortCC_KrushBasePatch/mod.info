@@ -1,0 +1,6 @@
+name=Better Sorting - Krush's Base Patch
+id=BetterSortCC_KrushBasePatch
+require=BetterSortCC
+description=This is a helper mod for common functions the others use.
+poster=poster.png
+versionMax=41.78

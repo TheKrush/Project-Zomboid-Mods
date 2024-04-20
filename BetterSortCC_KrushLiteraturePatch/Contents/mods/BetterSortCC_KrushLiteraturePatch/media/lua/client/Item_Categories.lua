@@ -1,6 +1,4 @@
-if getActivatedMods():contains("ItemTweakerAPI") then
-	require("ItemTweaker_Core");
-else return end
+require("Krush_ItemTweaker_Core");
 
 if getActivatedMods():contains("DrivingSkill") then
 	TweakItem("DrivingSkill.DrivingSkill_BookDriving1","DisplayCategory","LitS");

@@ -3,4 +3,4 @@ versionMin=41.78
 versionMax=41.99
 id=AccessLevelsAdjuster
 name=Access Levels Adjuster
-description=Allows adjusting of what each access level is required for various things.<LINE>
+description=Allows adjusting of what each access level is required for various things.

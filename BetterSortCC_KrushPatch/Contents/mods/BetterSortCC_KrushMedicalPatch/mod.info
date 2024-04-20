@@ -1,4 +1,4 @@
-name=Better Sorting - Krush's Literature Patch
+name=Better Sorting - Krush's Medical Patch
 id=BetterSortCC_KrushMedicalPatch
 require=BetterSortCC,BetterSortCC_KrushBasePatch
 description=This patch modifies some items to mark them as the 'Medical' category.

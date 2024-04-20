@@ -1,6 +1,4 @@
 version=1
-tags=Build 41
-visibility=public
 id=3224587368
 title=bikinitools [SE] 124: Krush's Starter Kits
 description=[h1]bikinitools [SE] 124: Krush's Starter Kits[/h1]
@@ -49,3 +47,5 @@ description=
 description=[b]Metalworker[/b][list][*]Base.WeldingMask[*]Base.BlowTorch[*]Base.Bag_Satchel[/list]
 description=
 description=[b]Mechanic[/b][list][*]Base.Spanner[*]Base.LugWrench[*]Base.TirePump[*]Base.Jack[*]Base.Glasses_SafetyGoggles[*]Base.Bag_Satchel[/list]
+tags=Build 41
+visibility=public

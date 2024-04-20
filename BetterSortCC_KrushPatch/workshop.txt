@@ -1,6 +1,4 @@
 version=1
-tags=Build 41
-visibility=public
 id=3227538772
 title=Better Sorting - Krush's Patches
 description=This contains a few different patches for various mods to ensure display name and category consistency with BetterCC.
@@ -23,3 +21,5 @@ description=This patch modifies some items to mark them as the 'Medical' categor
 description=
 description=[b]Supported Mods[/b]
 description=[list][*]BB_FirstAidOverhaul[*]BB_FirstAidOverhaul_Alt[/list]
+tags=Build 41
+visibility=public

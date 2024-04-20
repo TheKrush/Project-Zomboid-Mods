@@ -1,6 +1,6 @@
 name=Better Sorting - Krush's Literature Patch
 id=BetterSortCC_KrushLiteraturePatch
-require=BetterSortCC_KrushBasePatch
+require=BetterSortCC,BetterSortCC_KrushBasePatch
 description=This patch modifies skill books to mark them as the 'Literature - Skill' category. Also, will change display name of some skill books to a common format.
 description=
 description=LOAD AFTER SUPPORTED MODS FOR NAME OVERWRITES

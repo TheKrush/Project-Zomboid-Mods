@@ -1,6 +1,6 @@
 name=Better Sorting - Krush's Literature Patch
 id=BetterSortCC_KrushMedicalPatch
-require=BetterSortCC_KrushBasePatch
+require=BetterSortCC,BetterSortCC_KrushBasePatch
 description=This patch modifies some items to mark them as the 'Medical' category.
 description=
 description=LOAD AFTER SUPPORTED MODS FOR NAME OVERWRITES

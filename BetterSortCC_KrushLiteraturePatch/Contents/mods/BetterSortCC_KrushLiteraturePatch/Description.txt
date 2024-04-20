@@ -4,7 +4,7 @@
 This patch modifies skill books from various other mods to the "Literature - Skill" category, but only if they are active. Also, will change display name of some skill books / magazines to a common format.
 
 [b]Supported Mods[/b]
-[list][*]betterLockpicking[*]DIY_EngineParts[*]DIY_VehicleParts![*]DrivingSkill[*]MoreSmokes[*]LY_Skillbooks_passive[*]LY_Skillbooks_agility[*]LY_Skillbooks_melee[*]LY_Skillbooks_maintenance[*]LY_Skillbooks_lockpicking[*]LY_Skillbooks_firearms[*]SapphCooking[*]SAPPHEATER[*]ScavengingSkillFixed[*]ScrapArmor(new version)[*]ScrapGuns(new version)[*]ScrapWeapons(new version)[*]TheWorkshop(new version)[*]TrueActionsDancing[*]tsarslib[*]zReBetterLockpicking[*]zReBetterLockpickingLYSLP[*]VaccinDrReapers[*]VaccinDrReapersMP[/list]
+[list][*]betterLockpicking[*]DIY_EngineParts[*]DIY_VehicleParts![*]DrivingSkill[*]LY_Skillbooks_passive[*]LY_Skillbooks_agility[*]LY_Skillbooks_melee[*]LY_Skillbooks_maintenance[*]LY_Skillbooks_lockpicking[*]LY_Skillbooks_firearms[*]MoreSmokes[*]SapphCooking[*]SAPPHEATER[*]ScavengingSkillFixed[*]ScrapArmor(new version)[*]ScrapGuns(new version)[*]ScrapWeapons(new version)[*]TheWorkshop(new version)[*]TrueActionsDancing[*]tsarslib[*]zReBetterLockpicking[*]zReBetterLockpickingLYSLP[*]VaccinDrReapers[*]VaccinDrReapersMP[/list]
 
 [hr][/hr]
 Workshop ID: 3224643834

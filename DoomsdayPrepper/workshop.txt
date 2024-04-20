@@ -1,6 +1,9 @@
 version=1
 id=2826054664
 title=Doomsday Prepper (Profession)
-description=Adds a "Doomsday Prepper" profession for character creation.
+description=[h1]Doomsday Prepper (Profession)[/h1]
+description=
+description=Currently this mod adds the Doomsday Prepper profession (basically a profession with lots of starting traits).
+description=
 tags=Build 41
 visibility=unlisted

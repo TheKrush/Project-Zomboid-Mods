@@ -1,8 +1,12 @@
 name=Better Sorting - Krush's Literature Patch
 id=BetterSortCC_KrushLiteraturePatch
 require=BetterSortCC,BetterSortCC_KrushBasePatch
+description=[h1]Better Sorting - Krush's Literature Patch[/h1]
+description=[b][i]LOAD LAST FOR NAME OVERWRITES[/i][/b]
+description=
 description=This patch modifies skill books to mark them as the 'Literature - Skill' category. Also, will change display name of some skill books to a common format.
 description=
-description=LOAD AFTER SUPPORTED MODS FOR NAME OVERWRITES
+description=[b]Supported Mods[/b]
+description=[list][*]betterLockpicking[*]DIY_EngineParts[*]DIY_VehicleParts![*]DrivingSkill[*]LY_Skillbooks_passive[*]LY_Skillbooks_agility[*]LY_Skillbooks_melee[*]LY_Skillbooks_maintenance[*]LY_Skillbooks_lockpicking[*]LY_Skillbooks_firearms[*]MoreSmokes[*]SapphCooking[*]SAPPHEATER[*]ScavengingSkillFixed[*]ScrapArmor(new version)[*]ScrapGuns(new version)[*]ScrapWeapons(new version)[*]TheWorkshop(new version)[*]TrueActionsDancing[*]tsarslib[*]zReBetterLockpicking[*]zReBetterLockpickingLYSLP[*]VaccinDrReapers[*]VaccinDrReapersMP[/list]
 poster=poster.png
 versionMax=41.78

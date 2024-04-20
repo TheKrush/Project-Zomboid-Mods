@@ -1,5 +1,5 @@
 version=1
-id=3224643834
+id=
 title=Better Sorting - Krush's Patches
 description=This contains a few different patches for various mods to ensure display name and category consistency with BetterCC.
 tags=Build 41

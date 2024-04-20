@@ -1,8 +1,5 @@
 name=Doomsday Prepper (Profession)
-description=[h1]Doomsday Prepper (Profession)[/h1]
-description=
-description=Currently this mod adds the Doomsday Prepper profession (basically a profession with lots of starting traits).
-description=
+description=Currently this mod adds the Doomsday Prepper profession (basically a profession with lots of starting traits).<LINE>
 poster=poster.png
 modversion=1.01
 pzversion=build 41.78

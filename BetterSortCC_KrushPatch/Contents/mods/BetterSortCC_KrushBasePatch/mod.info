@@ -1,8 +1,6 @@
 name=Better Sorting - Krush's Base Patch
 id=BetterSortCC_KrushBasePatch
 require=BetterSortCC
-description=[h1]Better Sorting - Krush's Base Patch[/h1]
-description=
-description=This is a helper mod for common functions the others use.
+description=This is a helper mod for common functions the others use.<LINE>
 poster=poster.png
 versionMax=41.78

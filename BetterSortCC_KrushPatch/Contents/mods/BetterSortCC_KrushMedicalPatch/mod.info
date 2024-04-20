@@ -1,9 +1,12 @@
 name=Better Sorting - Krush's Medical Patch
 id=BetterSortCC_KrushMedicalPatch
 require=BetterSortCC,BetterSortCC_KrushBasePatch
-description=[h1]Better Sorting - Krush's Medical Patch[/h1]
-description=[b][i]LOAD LAST FOR NAME OVERWRITES[/i][/b]
-description=
-description=This patch modifies some items to mark them as the 'Medical' category.
+description=LOAD LAST FOR NAME OVERWRITES<LINE>
+description=<LINE>
+description=This patch modifies some items to mark them as the 'Medical' category.<LINE>
+description=<LINE>
+description=Supported Mods<LINE>
+description= - BB_FirstAidOverhaul<LINE>
+description= - BB_FirstAidOverhaul_Alt<LINE>
 poster=poster.png
 versionMax=41.78

@@ -1,7 +1,5 @@
 name=Access Levels Adjuster
-description=[h1]Access Levels Adjuster[/h1]
-description=
-description=Allows adjusting of what each access level is required for various things.
+description=Allows adjusting of what each access level is required for various things.<LINE>
 poster=poster.png
 modversion=1.00
 pzversion=build 41.78

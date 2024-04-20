@@ -6,46 +6,46 @@ name=bikinitools [SE] 124: Krush's Starter Kits
 require=BTSE_Chat
 description=Starter Kits for bikinitools<LINE>
 description=<LINE>
-description=Unemployed<LINE>=- Base.Garbagebag<LINE>=- Base.WaterBottleFull<LINE>=- Base.Crisps<LINE>=- Base.Bag_FannyPackFront<LINE>=- Base.Duffelbag<LINE>
+description=Unemployed<LINE>- ItemName_Base.Garbagebag<LINE>- ItemName_Base.WaterBottleFull<LINE>- ItemName_Base.Crisps<LINE>- ItemName_Base.Bag_FannyPackFront<LINE>- ItemName_Base.Duffelbag<LINE>
 description=<LINE>
-description=Fire Officer<LINE>=- Base.Axe<LINE>=- Base.Hat_Fireman<LINE>=- Base.Hat_DustMask<LINE>=- Base.Bag_SatchelPolice<LINE>
+description=Fire Officer<LINE>- ItemName_Base.Axe<LINE>- ItemName_Base.Hat_Fireman<LINE>- ItemName_Base.Hat_DustMask<LINE>- ItemName_Base.Bag_SatchelPolice<LINE>
 description=<LINE>
-description=Police Officer<LINE>=- Base.M9<LINE>=- Base.9mmClip<LINE>=- Base.Bullets9mmBox<LINE>=- Base.Hat_Police<LINE>=- Base.Glasses_Aviators<LINE>=- Base.Bag_Satchel<LINE>
+description=Police Officer<LINE>- ItemName_Base.M9<LINE>- ItemName_Base.9mmClip<LINE>- ItemName_Base.Bullets9mmBox<LINE>- ItemName_Base.Hat_Police<LINE>- ItemName_Base.Glasses_Aviators<LINE>- ItemName_Base.Bag_Satchel<LINE>
 description=<LINE>
-description=Park Ranger<LINE>=- Base.WaterBottleFull<LINE>=- Base.Hat_Ranger<LINE>=- Base.Bag_NormalHikingBag<LINE>
+description=Park Ranger<LINE>- ItemName_Base.WaterBottleFull<LINE>- ItemName_Base.Hat_Ranger<LINE>- ItemName_Base.Bag_NormalHikingBag<LINE>
 description=<LINE>
-description=Construction Worker<LINE>=- Base.MetalPipe<LINE>=- Base.Lunchbox<LINE>=- Base.Hat_HardHat<LINE>=- Base.Glasses_SafetyGoggles<LINE>=- Base.Bag_Satchel<LINE>
+description=Construction Worker<LINE>- ItemName_Base.MetalPipe<LINE>- ItemName_Base.Lunchbox<LINE>- ItemName_Base.Hat_HardHat<LINE>- ItemName_Base.Glasses_SafetyGoggles<LINE>- ItemName_Base.Bag_Satchel<LINE>
 description=<LINE>
-description=Security Guard<LINE>=- Base.Nightstick<LINE>=- Base.HandTorch<LINE>=- Base.Battery<LINE>=- Base.Bag_FannyPackFront<LINE>=- Base.Bag_Satchel<LINE>
+description=Security Guard<LINE>- ItemName_Base.Nightstick<LINE>- ItemName_Base.HandTorch<LINE>- ItemName_Base.Battery<LINE>- ItemName_Base.Bag_FannyPackFront<LINE>- ItemName_Base.Bag_Satchel<LINE>
 description=<LINE>
-description=Carpenter<LINE>=- Base.Hammer<LINE>=- Base.Saw<LINE>=- Base.NailsBox<LINE>=- Base.Glasses_SafetyGoggles<LINE>=- Base.Bag_Satchel<LINE>
+description=Carpenter<LINE>- ItemName_Base.Hammer<LINE>- ItemName_Base.Saw<LINE>- ItemName_Base.NailsBox<LINE>- ItemName_Base.Glasses_SafetyGoggles<LINE>- ItemName_Base.Bag_Satchel<LINE>
 description=<LINE>
-description=Burglar<LINE>=- Base.CrowbarHat_BalaclavaFull<LINE>=- Base.Bag_Schoolbag<LINE>
+description=Burglar<LINE>- ItemName_Base.Crowbar<LINE>- ItemName_Base.Hat_BalaclavaFull<LINE>- ItemName_Base.Bag_Schoolbag<LINE>
 description=<LINE>
-description=Chef<LINE>=- Base.Pan<LINE>=- Base.KitchenKnife<LINE>=- Base.TinOpenerHat_ChefHat<LINE>=- Base.Bag_Satchel<LINE>
+description=Chef<LINE>- ItemName_Base.Pan<LINE>- ItemName_Base.KitchenKnife<LINE>- ItemName_Base.TinOpenerHat_ChefHat<LINE>- ItemName_Base.Bag_Satchel<LINE>
 description=<LINE>
-description=Repairman<LINE>=- Base.Hammer<LINE>=- Base.Glue<LINE>=- Base.DuctTape<LINE>=- Base.Toolbox<LINE>=- Base.Bag_Satchel<LINE>
+description=Repairman<LINE>- ItemName_Base.Hammer<LINE>- ItemName_Base.Glue<LINE>- ItemName_Base.DuctTape<LINE>- ItemName_Base.Toolbox<LINE>- ItemName_Base.Bag_Satchel<LINE>
 description=<LINE>
-description=Farmer<LINE>=- Base.Shovel<LINE>=- Base.TomatoBagSeed<LINE>=- Base.Dirtbag<LINE>=- Base.Bag_Satchel<LINE>
+description=Farmer<LINE>- ItemName_Base.Shovel<LINE>- ItemName_Base.TomatoBagSeed<LINE>- ItemName_Base.Dirtbag<LINE>- ItemName_Base.Bag_Satchel<LINE>
 description=<LINE>
-description=Fisherman<LINE>=- Base.FishingRod<LINE>=- Base.FishingNet<LINE>=- Base.FishingTackle<LINE>=- Base.Bag_Satchel<LINE>
+description=Fisherman<LINE>- ItemName_Base.FishingRod<LINE>- ItemName_Base.FishingNet<LINE>- ItemName_Base.FishingTackle<LINE>- ItemName_Base.Bag_Satchel<LINE>
 description=<LINE>
-description=Doctor<LINE>=- Base.Scalpel<LINE>=- Base.SutureNeedle<LINE>=- Base.SutureNeedleHolder<LINE>=- Base.Tweezers<LINE>=- Base.Gloves_Surgical<LINE>=- Base.Hat_SurgicalMask_Blue<LINE>=- Base.Bag_Satchel<LINE>
+description=Doctor<LINE>- ItemName_Base.Scalpel<LINE>- ItemName_Base.SutureNeedle<LINE>- ItemName_Base.SutureNeedleHolder<LINE>- ItemName_Base.Tweezers<LINE>- ItemName_Base.Gloves_Surgical<LINE>- ItemName_Base.Hat_SurgicalMask_Blue<LINE>- ItemName_Base.Bag_Satchel<LINE>
 description=<LINE>
-description=Veteran<LINE>=- Base.Ithaca37<LINE>=- Base.ShotgunShellsBox<LINE>=- Base.Hat_BonnieHat_CamoGreen<LINE>=- Base.Bag_Satchel<LINE>
+description=Veteran<LINE>- ItemName_Base.Ithaca37<LINE>- ItemName_Base.ShotgunShellsBox<LINE>- ItemName_Base.Hat_BonnieHat_CamoGreen<LINE>- ItemName_Base.Bag_Satchel<LINE>
 description=<LINE>
-description=Nurse<LINE>=- Base.Scissors<LINE>=- Base.Bandaid<LINE>=- Base.AlcoholWipes<LINE>=- Base.Pills<LINE>=- Base.Hat_SurgicalCap_Blue<LINE>=- Base.FirstAidKit<LINE>=- Base.Bag_Satchel<LINE>
+description=Nurse<LINE>- ItemName_Base.Scissors<LINE>- ItemName_Base.Bandaid<LINE>- ItemName_Base.AlcoholWipes<LINE>- ItemName_Base.Pills<LINE>- ItemName_Base.Hat_SurgicalCap_Blue<LINE>- ItemName_Base.FirstAidKit<LINE>- ItemName_Base.Bag_Satchel<LINE>
 description=<LINE>
-description=Lumberjack<LINE>=- Base.Axe<LINE>=- Base.Hat_Raccoon<LINE>=- Base.Bag_Satchel<LINE>
+description=Lumberjack<LINE>- ItemName_Base.Axe<LINE>- ItemName_Base.Hat_Raccoon<LINE>- ItemName_Base.Bag_Satchel<LINE>
 description=<LINE>
-description=Fitness Instructor<LINE>=- Base.PillsVitamins<LINE>=- Base.Hat_Sweatband<LINE>=- Base.Earbuds<LINE>=- Base.BathTowel<LINE>=- Base.Hat_VisorRed<LINE>=- Base.Duffelbag<LINE>
+description=Fitness Instructor<LINE>- ItemName_Base.PillsVitamins<LINE>- ItemName_Base.Hat_Sweatband<LINE>- ItemName_Base.Earbuds<LINE>- ItemName_Base.BathTowel<LINE>- ItemName_Base.Hat_VisorRed<LINE>- ItemName_Base.Duffelbag<LINE>
 description=<LINE>
-description=Burger Flipper<LINE>=- Base.GriddlePan<LINE>=- Base.MeatCleaver<LINE>=- Base.Burger<LINE>=- Base.Hat_FastFood_Spiffo<LINE>=- Base.Bag_Satchel<LINE>
+description=Burger Flipper<LINE>- ItemName_Base.GriddlePan<LINE>- ItemName_Base.MeatCleaver<LINE>- ItemName_Base.Burger<LINE>- ItemName_Base.Hat_FastFood_Spiffo<LINE>- ItemName_Base.Bag_Satchel<LINE>
 description=<LINE>
-description=Electrician<LINE>=- Base.Screwdriver<LINE>=- Base.Battery<LINE>=- Base.Glue<LINE>=- Base.Gloves_LeatherGloves<LINE>=- Base.Bag_Satchel<LINE>
+description=Electrician<LINE>- ItemName_Base.Screwdriver<LINE>- ItemName_Base.Battery<LINE>- ItemName_Base.Glue<LINE>- ItemName_Base.Gloves_LeatherGloves<LINE>- ItemName_Base.Bag_Satchel<LINE>
 description=<LINE>
-description=Engineer<LINE>=- Base.MetalPipe<LINE>=- Base.Saw<LINE>=- Base.Twine<LINE>=- Base.Glasses_SafetyGoggles<LINE>=- Base.Bag_Satchel<LINE>
+description=Engineer<LINE>- ItemName_Base.MetalPipe<LINE>- ItemName_Base.Saw<LINE>- ItemName_Base.Twine<LINE>- ItemName_Base.Glasses_SafetyGoggles<LINE>- ItemName_Base.Bag_Satchel<LINE>
 description=<LINE>
-description=Metalworker<LINE>=- Base.WeldingMask<LINE>=- Base.BlowTorch<LINE>=- Base.Bag_Satchel<LINE>
+description=Metalworker<LINE>- ItemName_Base.WeldingMask<LINE>- ItemName_Base.BlowTorch<LINE>- ItemName_Base.Bag_Satchel<LINE>
 description=<LINE>
-description=Mechanic<LINE>=- Base.Spanner<LINE>=- Base.LugWrench<LINE>=- Base.TirePump<LINE>=- Base.Jack<LINE>=- Base.Glasses_SafetyGoggles<LINE>=- Base.Bag_Satchel<LINE>
+description=Mechanic<LINE>- ItemName_Base.Spanner<LINE>- ItemName_Base.LugWrench<LINE>- ItemName_Base.TirePump<LINE>- ItemName_Base.Jack<LINE>- ItemName_Base.Glasses_SafetyGoggles<LINE>- ItemName_Base.Bag_Satchel<LINE>

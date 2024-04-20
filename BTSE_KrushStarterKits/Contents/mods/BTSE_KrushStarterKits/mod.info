@@ -1,5 +1,8 @@
-name=bikinitools [SE] 124: Krush's Starter Kits
+poster=poster.png
+versionMin=41.78
+versionMax=41.99
 id=BTSE_KrushStarterKits
+name=bikinitools [SE] 124: Krush's Starter Kits
 require=BTSE_Chat
 description=Starter Kits for bikinitools<LINE>
 description=<LINE>
@@ -149,5 +152,3 @@ description=- Base.TirePump<LINE>
 description=- Base.Jack<LINE>
 description=- Base.Glasses_SafetyGoggles<LINE>
 description=- Base.Bag_Satchel<LINE>
-poster=poster.png
-versionMax=41.78

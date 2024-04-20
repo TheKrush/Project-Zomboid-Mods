@@ -1,6 +1,6 @@
+poster=poster.png
+versionMin=41.78
+versionMax=41.99
+id=AccessLevelsAdjuster
 name=Access Levels Adjuster
 description=Allows adjusting of what each access level is required for various things.<LINE>
-poster=poster.png
-modversion=1.00
-pzversion=build 41.78
-id=AccessLevelsAdjuster

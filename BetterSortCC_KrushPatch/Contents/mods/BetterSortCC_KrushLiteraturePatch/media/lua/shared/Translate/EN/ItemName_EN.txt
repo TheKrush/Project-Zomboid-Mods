@@ -136,6 +136,20 @@ ItemName_EN = {
 	ItemName_LY_Skillbooks.BookReloading4 = "Reloading Vol.4: Expert",
 	ItemName_LY_Skillbooks.BookReloading5 = "Reloading Vol.5: Master",
 
+	-- Libations : MoreBrews
+	ItemName_MoreBrews.BookBrewing1 = "Brewing Vol.1 Beginner",
+	ItemName_MoreBrews.BookBrewing2 = "Brewing Vol.2 Intermediate",
+	ItemName_MoreBrews.BookBrewing3 = "Brewing Vol.3 Advanced",
+	ItemName_MoreBrews.BookBrewing4 = "Brewing Vol.4 Expert",
+	ItemName_MoreBrews.BookBrewing5 = "Brewing Vol.5 Master",
+
+	-- Libations : MoreBrewsWineMeUp
+	ItemName_MoreBrews.MoreBrews.BookWineMaking1 = "Wine Making Vol.1 Beginner",
+	ItemName_MoreBrews.MoreBrews.BookWineMaking2 = "Wine Making Vol.2 Intermediate",
+	ItemName_MoreBrews.MoreBrews.BookWineMaking3 = "Wine Making Vol.3 Advanced",
+	ItemName_MoreBrews.MoreBrews.BookWineMaking4 = "Wine Making Vol.4 Expert",
+	ItemName_MoreBrews.MoreBrews.BookWineMaking5 = "Wine Making Vol.5 Master",
+
 	-- Miscellaneous : LY_Skillbooks_lockpicking / zReBetterLockpickingLYSLP
 	ItemName_LY_Skillbooks.BookLockpicking1 = "Lockpicking Vol.1: Beginner",
 	ItemName_LY_Skillbooks.BookLockpicking2 = "Lockpicking Vol.2: Intermediate",
@@ -232,6 +246,19 @@ ItemName_EN = {
 	ItemName_MoreSmokes.BackwoodBluntsMagazine = "High Times: Forest Fire Blunts",
 	ItemName_MoreSmokes.IndigoFogMagazine = "High Times: Indigo Fog Joints",
 	ItemName_MoreSmokes.CannabisButterGreenDreamsMagazine = "High Times: Green Dreams Cannabutter",
+
+	-- MoreBrews
+	ItemName_MoreBrews.MagazineHomeBrew1 = "Homebrewing Monthly for Dummies",
+	ItemName_MoreBrews.MagazineHomeBrew2 = "Homebrewing Beyond the Basics",
+	ItemName_MoreBrews.MagazineHomeBrew3 = "Mastering Homebrews",
+	ItemName_MoreBrews.MagazineHomeBrew4 = "Homebrewing Sharing is Caring",
+	ItemName_MoreBrews.MagazineHomeBrew5 = "Expert Homebrewing Crafts",
+
+	-- MoreBrewsWineMeUp
+	ItemName_MoreBrews.MagazineWineMaking1 = "Wine Making the Basics",
+	ItemName_MoreBrews.MagazineWineMaking2 = "The Sweeter Side of Wine",
+	ItemName_MoreBrews.MagazineWineMaking3 = "Wine Cousins - Honey Mead and Hard Cider",
+	ItemName_MoreBrews.MagazineWineMaking4 = "Contain that Ambrosia",
 
 	-- SapphCooking
 	ItemName_SapphCooking.AsianFoodMagazine	= "Foods Around The World Vol. 1",

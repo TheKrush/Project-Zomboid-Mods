@@ -1,6 +1,7 @@
 poster=poster.png
 versionMin=41.78
 versionMax=41.99
+authors=KrushLM
 name=Better Sorting - Krush's Base Patch
 id=BetterSortCC_KrushBasePatch
 require=BetterSortCC

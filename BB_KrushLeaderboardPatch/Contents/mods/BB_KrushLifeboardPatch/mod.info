@@ -1,8 +1,0 @@
-poster=poster.png
-versionMin=41.78
-versionMax=41.99
-authors=KrushLM
-id=BB_KrushLifeboardPatch
-require=BB_Days_Survived_Board
-name=Krush's Patch for Days Survived Leaderboard
-description=Adjusts the buttons so they're more tightly together.

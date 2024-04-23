@@ -4,5 +4,5 @@ versionMax=41.99
 authors=KrushLM
 id=BB_KrushDeathboard2Patch
 require=BB_Deathboard2
-name=Krush's Patch for Deathboard - Increment by Death
+name=Krush's Patch for Deathboard - Increment by Char
 description=Adjusts the buttons so they're more tightly together.

@@ -144,11 +144,11 @@ ItemName_EN = {
 	ItemName_MoreBrews.BookBrewing5 = "Brewing Vol.5 Master",
 
 	-- Libations : MoreBrewsWineMeUp
-	ItemName_MoreBrews.MoreBrews.BookWineMaking1 = "Wine Making Vol.1 Beginner",
-	ItemName_MoreBrews.MoreBrews.BookWineMaking2 = "Wine Making Vol.2 Intermediate",
-	ItemName_MoreBrews.MoreBrews.BookWineMaking3 = "Wine Making Vol.3 Advanced",
-	ItemName_MoreBrews.MoreBrews.BookWineMaking4 = "Wine Making Vol.4 Expert",
-	ItemName_MoreBrews.MoreBrews.BookWineMaking5 = "Wine Making Vol.5 Master",
+	ItemName_MoreBrews.BookWineMaking1 = "Wine Making Vol.1 Beginner",
+	ItemName_MoreBrews.BookWineMaking2 = "Wine Making Vol.2 Intermediate",
+	ItemName_MoreBrews.BookWineMaking3 = "Wine Making Vol.3 Advanced",
+	ItemName_MoreBrews.BookWineMaking4 = "Wine Making Vol.4 Expert",
+	ItemName_MoreBrews.BookWineMaking5 = "Wine Making Vol.5 Master",
 
 	-- Miscellaneous : LY_Skillbooks_lockpicking / zReBetterLockpickingLYSLP
 	ItemName_LY_Skillbooks.BookLockpicking1 = "Lockpicking Vol.1: Beginner",

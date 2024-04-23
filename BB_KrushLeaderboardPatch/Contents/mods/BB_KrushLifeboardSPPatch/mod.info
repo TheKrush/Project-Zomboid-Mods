@@ -3,6 +3,6 @@ versionMin=41.78
 versionMax=41.99
 authors=KrushLM
 id=BB_KrushLifeboardSPPatch
-require=BB_Days_Survived_Board_SP,BB_KrushLeaderboardPatch
+require=BB_Days_Survived_Board_SP
 name=Krush's Patch for Days Survived Leaderboard (Singleplayer)
 description=Adjusts the buttons so they're more tightly together.

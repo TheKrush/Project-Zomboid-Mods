@@ -1,9 +1,8 @@
 local OnISEquippedItemInitialize = ISEquippedItem.initialise
 
-
 function ISEquippedItem:initialise()
 
-	local menu = OnISEquippedItemInitialize(self)
+    local menu = OnISEquippedItemInitialize(self)
 
     local y = 0;
     for _,child in pairs(self:getChildren()) do
@@ -12,5 +11,5 @@ function ISEquippedItem:initialise()
         y += child:getBottom() + 5;
     end
 
-	return menu
+    return menu
 end

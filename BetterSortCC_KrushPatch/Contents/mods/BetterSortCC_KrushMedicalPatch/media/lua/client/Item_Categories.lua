@@ -6,6 +6,7 @@ if getActivatedMods():contains("BB_FirstAidOverhaul") or getActivatedMods():cont
 	TweakItem("Base.AlcoholBandage2Dirty","DisplayCategory","Med");
 	TweakItem("Base.Cologne","DisplayCategory","Med");
 	TweakItem("Base.EmptySyringe","DisplayCategory","Med");
+	TweakItem("Base.Perfume","DisplayCategory","Med");
 	TweakItem("Base.Syringe1","DisplayCategory","Med");
 	TweakItem("Base.Syringe2","DisplayCategory","Med");
 end

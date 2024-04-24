@@ -37,7 +37,7 @@ PARP.Chat.Compensation["kitVehicles"] = PARP.Chat.Compensation["kitVehicles"] or
 -- below I manually set each kit incase we want to support multiple mods all adding kits
 
 PARP.Chat.Compensation["kits"]["unemployed"] = {
-    ["Base.Bag_Duffelbag"] = 1,
+    ["Base.Bag_DuffelBag"] = 1,
     ["Base.Bag_FannyPackFront"] = 1,
     ["Base.Crisps"] = 1,
     ["Base.Garbagebag"] = 1,
@@ -46,14 +46,14 @@ PARP.Chat.Compensation["kits"]["unemployed"] = {
 
 PARP.Chat.Compensation["kits"]["fireofficer"] = {
     ["Base.Axe"] = 1,
-    ["Base.Bag_Duffelbag"] = 1,
+    ["Base.Bag_DuffelBag"] = 1,
     ["Base.Hat_DustMask"] = 1,
     ["Base.Hat_Fireman"] = 1,
 };
 
 PARP.Chat.Compensation["kits"]["policeofficer"] = {
     ["Base.9mmClip"] = 1,
-    ["Base.Bag_Duffelbag"] = 1,
+    ["Base.Bag_DuffelBag"] = 1,
     ["Base.Bullets9mmBox"] = 1,
     ["Base.Glasses_Aviators"] = 1,
     ["Base.Hat_Police"] = 1,
@@ -142,7 +142,7 @@ PARP.Chat.Compensation["kits"]["doctor"] = {
 PARP.Chat.Compensation["kits"]["veteran"] = {
     ["Base.Bag_Satchel"] = 1,
     ["Base.Hat_BonnieHat_CamoGreen"] = 1,
-    ["Base.Ithaca37"] = 1,
+    ["Base.Ithaca_M37"] = 1,
     ["Base.ShotgunShellsBox"] = 1,
 };
 
@@ -163,7 +163,7 @@ PARP.Chat.Compensation["kits"]["lumberjack"] = {
 };
 
 PARP.Chat.Compensation["kits"]["fitnessInstructor"] = {
-    ["Base.Bag_Duffelbag"] = 1,
+    ["Base.Bag_DuffelBag"] = 1,
     ["Base.BathTowel"] = 1,
     ["Base.Earbuds"] = 1,
     ["Base.Hat_Sweatband"] = 1,
@@ -197,7 +197,7 @@ PARP.Chat.Compensation["kits"]["engineer"] = {
 
 PARP.Chat.Compensation["kits"]["metalworker"] = {
     ["Base.BlowTorch"] = 1,
-    ["Base.MetalSheet"] = 1,
+    ["Base.SheetMetal"] = 1,
     ["Base.Toolbox"] = 1,
     ["Base.WeldingMask"] = 1,
 };

@@ -1,7 +1,7 @@
 version=1
 id=3224587368
 title=bikinitools [SE] 125: Krush's Starter Kits
-description=[h1]bikinitools [SE] 124: Krush's Starter Kits[/h1]
+description=[h1]bikinitools [SE] 125: Krush's Starter Kits[/h1]
 description=Starter Kits for bikinitools
 description=
 description=[b]Unemployed[/b][list][*]Base.Bag_Duffelbag[*]Base.Bag_FannyPackFront[*]Base.Crisps[*]Base.Garbagebag[*]Base.WaterBottleFull[/list]

@@ -11,19 +11,10 @@ function dump(o)
    end
 end
 
-function isAdmin(player)
-    return player:getAccessLevel() == "admin" or player:getAccessLevel() == "Admin"
-end
-
 function dumpModData(player)
     print("Mod Data (" .. player:getUsername() .. ")")
     print(dump(player:getModData()))
 end
-
--- OnPlayerUpdate Main Method to call others
-function MDE_OnPlayerUpdateMain(player)
-end
-Events.OnPlayerUpdate.Add(MDE_OnPlayerUpdateMain);
 
 -- EveryOneMinutes Main Method to call others
 function MDE_EveryOneMinuteMain()
@@ -43,7 +34,7 @@ function MDE_EveryHoursMain()
         local player = getSpecificPlayer(playerIndex);
         if player ~= nil then
             print(player:getUsername() .. " = " .. player:getAccessLevel())
-            if isAdmin(player) then
+            if player:getAccessLevel() == "admin" or player:getAccessLevel() == "Admin" then
                 if getActivatedMods():contains("DynamicTraits") then
                     print(player:getUsername() .. ": removing permanent dynamic traits")
 

@@ -11,6 +11,10 @@ function dump(o)
    end
 end
 
+function isAdmin(player)
+    return player:getAccessLevel() == "admin" or player:getAccessLevel() == "Admin"
+end
+
 function dumpModData(player)
     print("Mod Data (" .. player:getUsername() .. ")")
     print(dump(player:getModData()))
@@ -47,7 +51,8 @@ function MDE_EveryHoursMain()
     for playerIndex = 0, getNumActivePlayers()-1 do
         local player = getSpecificPlayer(playerIndex);
 
-        if (player:getAccessLevel() == "admin") then
+        print(player:getUsername() .. " = " .. player:getAccessLevel())
+        if (isAdmin(player)) then
             if getActivatedMods():contains("DynamicTraits") then
                 print(player:getUsername() .. ": removing permanent dynamic traits")
 

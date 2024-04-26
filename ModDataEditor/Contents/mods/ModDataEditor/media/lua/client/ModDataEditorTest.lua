@@ -41,21 +41,22 @@ function MDE_EveryHoursMain()
 
     for playerIndex = 0, getNumActivePlayers()-1 do
         local player = getSpecificPlayer(playerIndex);
+        if player ~= nil then
+            print(player:getUsername() .. " = " .. player:getAccessLevel())
+            if isAdmin(player) then
+                if getActivatedMods():contains("DynamicTraits") then
+                    print(player:getUsername() .. ": removing permanent dynamic traits")
 
-        print(player:getUsername() .. " = " .. player:getAccessLevel())
-        if (isAdmin(player)) then
-            if getActivatedMods():contains("DynamicTraits") then
-                print(player:getUsername() .. ": removing permanent dynamic traits")
+                    player:getTraits():remove("Melancholic");
+                    player:getModData().DTisMelancholic = false;
 
-                player:getTraits():remove("Melancholic");
-                player:getModData().DTisMelancholic = false;
-
-                player:getTraits():remove("NervousWreck");
-                player:getModData().DTisNervousWreck = false;
+                    player:getTraits():remove("NervousWreck");
+                    player:getModData().DTisNervousWreck = false;
+                end
             end
-        end
 
-        dumpModData(player)
+            dumpModData(player)
+        end
     end
 end
 Events.EveryHours.Add(MDE_EveryHoursMain);

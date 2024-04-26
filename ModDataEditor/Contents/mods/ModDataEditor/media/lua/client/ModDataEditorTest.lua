@@ -12,7 +12,7 @@ function dump(o)
 end
 
 function dumpModData(player)
-    print("Mod Data ("..player:getUsername()..")")
+    print('Mod Data ('.player:getUsername()..')')
     print(dump(player:getModData()))
 
     if (player:getAccessLevel() == "admin") then
@@ -33,7 +33,6 @@ Events.OnGameTimeLoaded.Add(dumpModData)
 
 -- OnPlayerUpdate Main Method to call others
 function MDE_OnPlayerUpdateMain(player)
-    dumpModData(player)
 end
 Events.OnPlayerUpdate.Add(MDE_OnPlayerUpdateMain);
 

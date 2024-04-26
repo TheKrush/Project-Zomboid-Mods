@@ -12,7 +12,7 @@ function dump(o)
 end
 
 function dumpModData(player)
-    print("Mod Data ("..username..")")
+    print("Mod Data ("..player:getUsername()..")")
     print(dump(player:getModData()))
 
     if (player:getAccessLevel() == "admin") then

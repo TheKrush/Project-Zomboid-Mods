@@ -20,15 +20,6 @@ function dumpModData(player)
     print(dump(player:getModData()))
 end
 
-function MDE_OnGameTimeLoadedMain()
-    print("MDE_OnGameTimeLoadedMain")
-
-    -- Attempt to resolve the player using the helper method.
-    local player = getPlayer();
-    dumpModData(player)
-end
-Events.OnGameTimeLoaded.Add(dumpModData)
-
 -- OnPlayerUpdate Main Method to call others
 function MDE_OnPlayerUpdateMain(player)
 end

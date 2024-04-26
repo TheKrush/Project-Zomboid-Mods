@@ -17,8 +17,12 @@ function dumpModData()
 
     print("Mod Data ("..username.."): ", dump(player:getModData()));
 
-    player:getModData().DTisMelancholic = false;
-    player:getModData().DTisNervousWreck = false;
+    if (player:getAccessLevel() == "admin") then
+        if getActivatedMods():contains("DynamicTraits") then
+            player:getModData().DTisMelancholic = false;
+            player:getModData().DTisNervousWreck = false;
+        end
+    end
 end
 
 Events.OnGameTimeLoaded.Add(dumpModData)

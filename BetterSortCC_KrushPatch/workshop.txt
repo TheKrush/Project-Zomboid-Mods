@@ -1,7 +1,7 @@
 version=1
 id=3227987471
 title=Better Sorting - Krush's Patches
-description=This contains a few different patches for various mods to ensure display name and category consistency with BetterCC.
+description=This contains a few different patches for various mods to ensure display name and category consistency with BetterSortCC.
 description=
 description=[h1]Better Sorting - Krush's Base Patch[/h1]
 description=This is a helper mod for common functions the others use.

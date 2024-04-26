@@ -12,19 +12,13 @@ function dump(o)
 end
 
 function dumpModData(player)
-    print('Mod Data ('.player:getUsername()..')')
+    print("Mod Data (" .. player:getUsername() .. ")")
     print(dump(player:getModData()))
-
-    if (player:getAccessLevel() == "admin") then
-        if getActivatedMods():contains("DynamicTraits") then
-            print(username..": removing permanent dynamic traits")
-            player:getModData().MDE_isMelancholic = false;
-            player:getModData().MDE_isNervousWreck = false;
-        end
-    end
 end
 
 function MDE_OnGameTimeLoadedMain()
+    print("MDE_OnGameTimeLoadedMain")
+
     -- Attempt to resolve the player using the helper method.
     local player = getPlayer();
     dumpModData(player)
@@ -48,8 +42,23 @@ Events.EveryTenMinutes.Add(MDE_EveryTenMinutesMain);
 
 -- EveryHours Main Method to call others
 function MDE_EveryHoursMain()
+    print("MDE_EveryHoursMain")
+
     for playerIndex = 0, getNumActivePlayers()-1 do
         local player = getSpecificPlayer(playerIndex);
+
+        if (player:getAccessLevel() == "admin") then
+            if getActivatedMods():contains("DynamicTraits") then
+                print(player:getUsername() .. ": removing permanent dynamic traits")
+
+                player:getTraits():remove("Melancholic");
+                player:getModData().DTisMelancholic = false;
+
+                player:getTraits():remove("NervousWreck");
+                player:getModData().DTisNervousWreck = false;
+            end
+        end
+
         dumpModData(player)
     end
 end

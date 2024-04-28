@@ -223,7 +223,7 @@ ItemName_EN = {
 	ItemName_Base.FarmingMag1 = "Farming Almanac",
 
 	-- agrotsar
-    ItemName_Agrotsar.AgrotsarMag = "Agrotsar Мachinery Vol.1 Agriculture",
+    ItemName_Agrotsar.AgrotsarMag = "Agrotsar Мachinery Vol.1: Agriculture",
 
 	-- betterLockpicking / zReBetterLockpicking / zReBetterLockpickingLYSLP
 	ItemName_BetLock.LockpickingMag = "Security Vol.1: Locks",

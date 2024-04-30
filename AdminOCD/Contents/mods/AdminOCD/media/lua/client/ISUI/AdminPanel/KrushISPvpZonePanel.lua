@@ -1,8 +1,8 @@
 require "client/ISUI/AdminPanel/ISPvpZonePanel"
 
 AdminOCD.ISPvpZonePanel_initialise = function()
-    local original_initialise = ISPvpZonePanel:initialise
-    ISPvpZonePanel.initialise = function()
+    local original_initialise = ISPvpZonePanel["initialise"]
+    ISPvpZonePanel["initialise"] = function()
         original_initialise();
 
         local btnWid = 100
@@ -25,8 +25,8 @@ AdminOCD.ISPvpZonePanel_initialise = function()
 end
 
 AdminOCD.ISPvpZonePanel_populateList = function()
-    local original_populateList = ISPvpZonePanel:populateList
-    ISPvpZonePanel.populateList = function()
+    local original_populateList = ISPvpZonePanel["populateList"]
+    ISPvpZonePanel["populateList"] = function()
         self.nonPvpList:clear();
 
         -- copy then sort the list
@@ -44,8 +44,8 @@ AdminOCD.ISPvpZonePanel_populateList = function()
 end
 
 AdminOCD.ISPvpZonePanel_onClick = function()
-    local original_onClick = ISPvpZonePanel:onClick
-    ISPvpZonePanel.onClick = function(button)
+    local original_onClick = ISPvpZonePanel["onClick"]
+    ISPvpZonePanel["onClick"] = function(button)
         original_onClick(button) -- call the original one
         if button.internal == "CHANGETITLE" then
             local modal = ISTextBox:new(self.x + 200, 200, 280, 180, getText("IGUI_PvpZone_ChangeTitle"), self.selectedZone:getTitle(), nil, ISPvpZonePanel.onChangeTitle);

@@ -1,8 +1,8 @@
 require "client/ISUI/AdminPanel/ISSafehousesList"
 
 AdminOCD.ISSafehousesList_populateList = function()
-    local original_populateList = ISSafehousesList:populateList
-    ISSafehousesList.populateList = function()
+    local original_populateList = ISSafehousesList["populateList"]
+    ISSafehousesList["populateList"] = function()
         self.datas:clear();
 
         -- copy then sort the list

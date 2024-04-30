@@ -1,0 +1,4 @@
+IGUI_EN = {
+    IGUI_PvpZone_ChangeTitle = "Change Zone title",
+    IGUI_PlayerStats_ChangeTitle = "Change Title",
+}

@@ -1,0 +1,7 @@
+version=1
+id=3218827602
+title=Admin OCD
+description=[h1]Admin OCD[/h1]
+description=Various admin related tweaks for OCD people. (such as sorting things alphabetically)
+tags=Build 41;Multiplayer
+visibility=unlisted

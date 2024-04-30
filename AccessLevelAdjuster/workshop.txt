@@ -1,7 +1,0 @@
-version=1
-id=3218827602
-title=Access Levels Adjuster
-description=[h1]Access Levels Adjuster[/h1]
-description=Allows adjusting of what each access level is required for various things.
-tags=Build 41;Multiplayer
-visibility=unlisted

@@ -1,7 +1,7 @@
 
 local original_initialise = ISPvpZonePanel.initialise
 ISPvpZonePanel.initialise = function(self)
-    original_initialise();
+    original_initialise(self);
 
     local btnWid = 100
     local btnHgt = math.max(25, FONT_HGT_SMALL + 3 * 2)
@@ -23,19 +23,16 @@ end
 
 local original_populateList = ISPvpZonePanel.populateList
 ISPvpZonePanel.populateList = function(self)
-    self.nonPvpList:clear();
+    original_populateList(self)
 
-    -- copy then sort the list
-    local nonPvpZones=NonPvpZone.getAllZones()
-    table.sort(nonPvpZones, function(a,b)
-        if a.getTitle() < b.getTitle() then return true end
+    table.sort(self.nonPvpList.items, function(left, right)
+        if not right or not right.item then return false; end
+        if not left or not left.item then return false; end
+
+        if left.item.title < right.item.title then return true; end
+
+        return false;
     end)
-
-    -- now add each item
-    for i=0,nonPvpZones:size()-1 do
-        local zone = nonPvpZones:get(i);
-        self.nonPvpList:addItem(zone:getTitle(), zone);
-    end
 end
 
 local original_onClick = ISPvpZonePanel.onClick

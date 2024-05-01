@@ -1,17 +1,14 @@
 
 local original_populateList = ISSafehousesList.populateList
 ISSafehousesList.populateList = function(self)
-    self.datas:clear();
+    original_populateList(self)
 
-    -- copy then sort the list
-    local safeHouses=SafeHouse.getSafehouseList()
-    table.sort(safeHouses, function(a,b)
-        if a.getTitle() < b.getTitle() then return true end
+    table.sort(self.datas.items, function(left, right)
+        if not right or not right.item then return false; end
+        if not left or not left.item then return false; end
+
+        if left.item:getTitle() < right.item:getTitle() then return true; end
+
+        return false;
     end)
-
-    -- now add each item
-    for i=0,safeHouses:size()-1 do
-        local safeHouse = safeHouses:get(i);
-        self.datas:addItem(safeHouse:getTitle(), safeHouse);
-    end
 end

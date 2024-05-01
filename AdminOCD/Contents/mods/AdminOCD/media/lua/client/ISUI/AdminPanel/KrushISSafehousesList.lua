@@ -1,6 +1,6 @@
 
 local original_populateList = ISSafehousesList.populateList
-ISSafehousesList.populateList = function()
+ISSafehousesList.populateList = function(self)
     self.datas:clear();
 
     -- copy then sort the list

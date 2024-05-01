@@ -1,4 +1,7 @@
 
+local FONT_HGT_SMALL = getTextManager():getFontHeight(UIFont.Small)
+local FONT_HGT_MEDIUM = getTextManager():getFontHeight(UIFont.Medium)
+
 local original_initialise = ISPvpZonePanel.initialise
 ISPvpZonePanel.initialise = function(self)
     original_initialise(self);

@@ -4,4 +4,4 @@ title=Admin OCD
 description=Various admin related tweaks for OCD people.
 description=[list][*]Sort Non-Pvp Zone list[*]Sort Safehouse list[*]Add change title button for Non-Pvp Zones[/list]
 tags=Build 41;Multiplayer
-visibility=unlisted
+visibility=public

@@ -38,9 +38,19 @@ ISPvpZonePanel.populateList = function(self)
     end)
 end
 
+local original_render = ISPvpZonePanel.render
+ISPvpZonePanel.render = function(self)
+    original_render(self)
+
+    self.changeTitle.enable = false
+    if self.nonPvpList.selected > 0 then
+        self.changeTitle.enable = true;
+    end
+end
+
 local original_onClick = ISPvpZonePanel.onClick
 ISPvpZonePanel.onClick = function(self, button)
-    original_onClick(button) -- call the original one
+    original_onClick(self, button) -- call the original one
     if button.internal == "CHANGETITLE" then
         local modal = ISTextBox:new(self.x + 200, 200, 280, 180, getText("IGUI_PvpZone_ChangeTitle"), self.selectedZone:getTitle(), nil, ISPvpZonePanel.onChangeTitle);
         modal.ui = self;

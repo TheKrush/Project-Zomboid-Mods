@@ -47,5 +47,5 @@ description=
 description=[b]Metalworker[/b][list][*]Base.BlowTorch[*]Base.SheetMetal[*]Base.Toolbox[*]Base.WeldingMask[/list]
 description=
 description=[b]Mechanics[/b][list][*]Base.Glasses_SafetyGoggles[*]Base.Jack[*]Base.LugWrench[*]Base.TirePump[*]Base.Toolbox[*]Base.Wrench[/list]
-tags=Build 41
+tags=Build 41;Multiplayer
 visibility=public

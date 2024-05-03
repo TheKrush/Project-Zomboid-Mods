@@ -3,18 +3,28 @@
 
 ## AdminOCD
 
+### Sub-Mod: AdminOCD
+
 ## BetterSortCC_KrushPatch
 
-### BetterSortCC_KrushBasePatch
+### Sub-Mod: BetterSortCC_KrushBasePatch
 
-### BetterSortCC_KrushLiteraturePatch
+### Sub-Mod: BetterSortCC_KrushLiteraturePatch
 
-### BetterSortCC_KrushMedicalPatch
+### Sub-Mod: BetterSortCC_KrushMedicalPatch
 
 ## BTSE_KrushStarterKits
 
+### Sub-Mod: BTSE_KrushStarterKits
+
 ## DoomsdayPrepper
+
+### Sub-Mod: DoomsdayPrepper
 
 ## KrushServerTweaks
 
+### Sub-Mod: KrushServerTweaks
+
 ## ModDataEditor
+
+### Sub-Mod: ModDataEditor

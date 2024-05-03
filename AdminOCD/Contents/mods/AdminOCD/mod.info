@@ -11,4 +11,4 @@ description=- Sort NonPvp Zone list <LINE>
 description=- Sort Safehouse list <LINE>
 description=- Add change title button for Non-Pvp Zones <LINE>
 description=- Non-Pvp Zones should now more accurately match the selected zone
-description=-- No longer rounding causes some tiles to become unselected <LINE>
+description=-- My change replaces how it would round the start / end positions and result in sometimes the zone not matching the selected zone. <LINE>

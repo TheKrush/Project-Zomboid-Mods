@@ -63,8 +63,21 @@ end
 -- new function
 function ISPvpZonePanel:onChangeTitle(button)
     if button.internal == "OK" then
-        button.parent.selectedZone:setTitle(button.parent.entry:getText());
-        button.parent.selectedZone:syncNonPvpZone(false);
+        local oldTitle = button.parent.selectedZone:getTitle();
+
+        local newTitle = button.parent.entry:getText();
+        local x1 = math.floor(math.min(button.parent.selectedZone:getX(), button.parent.selectedZone.getX2()));
+        local y1 = math.floor(math.min(button.parent.selectedZone.getY(), button.parent.selectedZone.getY2()));
+        local x2 = math.floor(math.max(button.parent.selectedZone:getX(), button.parent.selectedZone.getX2()) + 1);
+        local y2 = math.floor(math.max(button.parent.selectedZone.getY(), button.parent.selectedZone.getY2()) + 1);
+
+        -- remove old zone
+        NonPvpZone.removeNonPvpZone(oldTitle);
+
+        -- add new zone
+        NonPvpZone.addNonPvpZone(newTitle, x1, y1, x2, y2);
+
+        -- repopulate our list
         button.parent.ui:populateList();
     end
 end

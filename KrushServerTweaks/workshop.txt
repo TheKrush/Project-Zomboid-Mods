@@ -1,0 +1,7 @@
+version=1
+id=
+title=Krush Server Tweaks
+description=[h1]Krush Server Tweaks[/h1]
+description=Various tweaks specific for my PZ Server.
+tags=Build 41;Multiplayer
+visibility=unlisted

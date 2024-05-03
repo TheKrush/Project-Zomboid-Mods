@@ -1,30 +1,31 @@
 # Project-Zomboid-Mods
 - [Official Documentation](https://projectzomboid.com/modding/)
-
+---
 ## AdminOCD
 
-### Sub-Mod: AdminOCD
-
+### AdminOCD
+---
 ## BetterSortCC_KrushPatch
 
-### Sub-Mod: BetterSortCC_KrushBasePatch
+### BetterSortCC_KrushBasePatch
 
-### Sub-Mod: BetterSortCC_KrushLiteraturePatch
+### BetterSortCC_KrushLiteraturePatch
 
-### Sub-Mod: BetterSortCC_KrushMedicalPatch
-
+### BetterSortCC_KrushMedicalPatch
+---
 ## BTSE_KrushStarterKits
 
-### Sub-Mod: BTSE_KrushStarterKits
-
+### BTSE_KrushStarterKits
+---
 ## DoomsdayPrepper
 
-### Sub-Mod: DoomsdayPrepper
-
+### DoomsdayPrepper
+---
 ## KrushServerTweaks
 
-### Sub-Mod: KrushServerTweaks
-
+### KrushServerTweaks
+---
 ## ModDataEditor
 
-### Sub-Mod: ModDataEditor
+### ModDataEditor
+---
